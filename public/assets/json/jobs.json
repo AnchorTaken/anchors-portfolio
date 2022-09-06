@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Job Name",
+    "company": "Company",
+    "description": [
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!"
+    ],
+    "number": "0",
+    "url": "http://www.vizintin.com/",
+    "tags": ["React", "NEXT JS", "Tailwind CSS"],
+    "delay": "one"
+  },
+  {
+    "name": "Vizintin Yachts2",
+    "company": "Company",
+    "description": [
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!"
+    ],
+    "number": "1",
+    "url": "http://www.vizintin.com/",
+    "tags": ["React", "NEXT JS", "Tailwind CSS"],
+    "delay": "two"
+  },
+  {
+    "name": "Vizintin Yachts3",
+    "company": "Company",
+    "description": [
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!"
+    ],
+    "number": "2",
+    "url": "http://www.vizintin.com/",
+    "tags": ["React", "NEXT JS", "Tailwind CSS"],
+    "delay": "three"
+  }
+]

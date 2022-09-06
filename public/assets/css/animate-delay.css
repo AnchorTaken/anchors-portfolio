@@ -1,0 +1,144 @@
+[data-animate-delay="100"] {
+  -webkit-animation-delay: 100ms;
+  animation-delay: 100ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 100ms !important;
+}
+[data-animate-delay="200"] {
+  -webkit-animation-delay: 200ms;
+  animation-delay: 200ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 200ms !important;
+}
+[data-animate-delay="300"] {
+  -webkit-animation-delay: 300ms;
+  animation-delay: 300ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 300ms !important;
+}
+[data-animate-delay="400"] {
+  -webkit-animation-delay: 400ms;
+  animation-delay: 400ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 400ms !important;
+}
+[data-animate-delay="500"] {
+  -webkit-animation-delay: 500ms;
+  animation-delay: 500ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 500ms !important;
+}
+[data-animate-delay="600"] {
+  -webkit-animation-delay: 600ms;
+  animation-delay: 600ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 600ms !important;
+}
+[data-animate-delay="700"] {
+  -webkit-animation-delay: 700ms;
+  animation-delay: 700ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 700ms !important;
+}
+[data-animate-delay="800"] {
+  -webkit-animation-delay: 800ms;
+  animation-delay: 800ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 800ms !important;
+}
+[data-animate-delay="900"] {
+  -webkit-animation-delay: 900ms;
+  animation-delay: 900ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 900ms !important;
+}
+[data-animate-delay="1000"] {
+  -webkit-animation-delay: 1000ms;
+  animation-delay: 1000ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 1000ms !important;
+}
+[data-animate-delay="1100"] {
+  -webkit-animation-delay: 1100ms;
+  animation-delay: 1100ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 1100ms !important;
+}
+[data-animate-delay="1200"] {
+  -webkit-animation-delay: 1200ms;
+  animation-delay: 1200ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 1200ms !important;
+}
+[data-animate-delay="1300"] {
+  -webkit-animation-delay: 1300ms;
+  animation-delay: 1300ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 1300ms !important;
+}
+[data-animate-delay="1400"] {
+  -webkit-animation-delay: 1400ms;
+  animation-delay: 1400ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 1400ms !important;
+}
+[data-animate-delay="1500"] {
+  -webkit-animation-delay: 1500ms;
+  animation-delay: 1500ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 1500ms !important;
+}
+[data-animate-delay="1600"] {
+  -webkit-animation-delay: 1600ms;
+  animation-delay: 1600ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 1600ms !important;
+}
+[data-animate-delay="1700"] {
+  -webkit-animation-delay: 1700ms;
+  animation-delay: 1700ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 1700ms !important;
+}
+[data-animate-delay="1800"] {
+  -webkit-animation-delay: 1800ms;
+  animation-delay: 1800ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 1800ms !important;
+}
+[data-animate-delay="1900"] {
+  -webkit-animation-delay: 1900ms;
+  animation-delay: 1900ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 1900ms !important;
+}
+[data-animate-delay="2000"] {
+  -webkit-animation-delay: 2000ms;
+  animation-delay: 2000ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 2000ms !important;
+}
+[data-animate-delay="2100"] {
+  -webkit-animation-delay: 2100ms;
+  animation-delay: 2100ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 2100ms !important;
+}
+[data-animate-delay="2200"] {
+  -webkit-animation-delay: 2200ms;
+  animation-delay: 2200ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 2200ms !important;
+}
+[data-animate-delay="2300"] {
+  -webkit-animation-delay: 2300ms;
+  animation-delay: 2300ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 2300ms !important;
+}
+[data-animate-delay="2400"] {
+  -webkit-animation-delay: 2400ms;
+  animation-delay: 2400ms;
+  -webkit-animation-delay: var(--animate-delay);
+  --animate-delay: 2400ms !important;
+}

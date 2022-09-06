@@ -1,0 +1,88 @@
+:root {
+  --clr--primary: rgb(8 145 178);
+  --clr--light: #e9e9e9;
+  --clr--dark: black;
+  --clr--accent: #f37d0e;
+  --clr--white: white;
+  --ff--title: "Play", sans-serif;
+  --ff--normal: "PT Sans", sans-serif;
+  --ff--mc: "Press Start 2P";
+}
+.font-default {
+  font-family: var(--ff--normal);
+}
+.font-title {
+  font-family: var(--ff--title);
+}
+.font-mc {
+  font-family: var(--ff--mc) !important;
+}
+.text-primary {
+  color: var(--clr--dark);
+}
+.text-accent {
+  color: var(--clr--accent);
+}
+.text-secondary {
+  color: var(--clr--white);
+}
+.clr-primary {
+  background: var(--clr--dark);
+}
+.clr-secondary {
+  background: var(--clr--white);
+}
+.clr-accent {
+  background: var(--clr--accent);
+}
+
+.title {
+  letter-spacing: 8px;
+  font-family: var(--ff--title);
+}
+.title.xl {
+  font-size: 3.5rem;
+}
+.title.md {
+  font-size: 2.5rem;
+}
+
+.title.sm {
+  font-size: 1.5rem;
+}
+@media (max-width: 1065px) {
+  .title.xl {
+    font-size: 2rem;
+  }
+  .title.md {
+    font-size: 1.8rem;
+    line-height: 30px;
+  }
+  .title.sm {
+    font-size: 1rem;
+  }
+}
+
+.copied {
+  color: var(--clr--white);
+  position: fixed;
+  right: 0;
+  bottom: 3%;
+  padding: 7px 50px;
+  border-radius: 1px 0px 0px 1px;
+  background: var(--clr--accent);
+  letter-spacing: 3px;
+}
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
+.transition .img-holder {
+  width: 100%;
+  height: 400px;
+  opacity: 1;
+  z-index: 2;
+  position: relative;
+}

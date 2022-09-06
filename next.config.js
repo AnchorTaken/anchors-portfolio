@@ -1,7 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
+  images: {
+    domains: [
+      "cdn.jsdelivr.net",
+      "s3.eu-central-1.amazonaws.com",
+      "res.cloudinary.com",
+    ],
+  },
+  build: {
+    transpile: ["gsap"],
+  },
+};
+const withBundleAnalyzer = require("@next/bundle-analyzer")({
+  enabled: process.env.ANALYZE === "true",
+});
 
-module.exports = nextConfig
+module.exports = nextConfig && withBundleAnalyzer({});
