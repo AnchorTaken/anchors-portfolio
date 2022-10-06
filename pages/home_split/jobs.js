@@ -14,9 +14,7 @@ function Jobs() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get(
-          "http://localhost:1337/api/jobs?populate=*"
-        );
+        const res = await axios.get("https://anchooor.wtf/api/jobs?populate=*");
 
         setJobs(res.data.data);
         setListlength(res.data.meta.pagination.total);

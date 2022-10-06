@@ -8,7 +8,7 @@ export default function Header() {
   const [menuActive, setMenuActive] = useState(false);
 
   // Nav API
-  const navApi = "http://localhost:1337/api/navs/?populate=*";
+  const navApi = "https://anchooor.wtf/api/navs/?populate=*";
 
   // Nav menu state
   const [navs, setNav] = useState([]);

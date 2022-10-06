@@ -14,7 +14,7 @@ function About({ searchBtn, setSea }) {
     const fetchData = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:1337/api/skills-abouts?populate=*"
+          "https://anchooor.wtf/api/skills-abouts?populate=*"
         );
 
         setSkills(res.data.data);

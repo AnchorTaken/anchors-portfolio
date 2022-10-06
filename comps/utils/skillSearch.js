@@ -16,7 +16,7 @@ function SkillSearch({ active }) {
     const fetchData = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:1337/api/skill-categories?populate=*"
+          "https://anchooor.wtf/api/skill-categories?populate=*"
         );
 
         setApiResponse(res.data.data.reverse());
