@@ -2,8 +2,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 import axios from "axios";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger.js";
+import FetchData from "../../services/fetchData.js";
 
 function Jobs() {
   // States
@@ -11,9 +10,6 @@ function Jobs() {
   const [jobs, setJobs] = useState([]);
   const [listlength, setListlength] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
-
-  // Register ScrollTrigger
-  gsap.registerPlugin(ScrollTrigger);
 
   useEffect(() => {
     const fetchData = async () => {
