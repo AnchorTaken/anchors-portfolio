@@ -23,7 +23,7 @@ function Projects() {
     const fetchData = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:1337/api/project-showcases?populate=*"
+          "https://anchooor.wtf/api/project-showcases?populate=*"
         );
 
         setTabs(res.data.data);

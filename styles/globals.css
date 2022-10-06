@@ -997,7 +997,6 @@ footer {
   margin-top: 300px;
   padding: 50px 0px;
   margin-top: 800px;
-  filter: invert(1);
 }
 footer .img-holder {
   height: 300px;
@@ -1068,7 +1067,7 @@ footer h2 {
 .main-menu .time {
   display: none;
 }
-.main-menu {
+.img-holdertransition .main-menu {
   background: black;
   padding-bottom: 20px;
 }

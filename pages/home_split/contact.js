@@ -6,7 +6,7 @@ import axios from "axios";
 function Contact() {
   const [contactActive, setContactActive] = useState(false);
   // Create a submit form
-  const API = "http://localhost:1337/api/contacts";
+  const API = "https://anchooor.wtf/api/contacts";
   const token =
     "c839beea5ab9415a7ec0645587986d31e80c65d60a1d4d77c44ac7e821f943f0081a3f0d2ba060363a5332dd8c91bdaf711a30bb575dcd2712a5d00a0492bb347c8833b7b3be9618c1287302642a4265a74529b9d6b7a2d86ac16d167407f815f35d397fce7e8b11892014ae1d0b41ffaa7321af4601e9630d94f4ad97940483";
   const [formData, setFormData] = useState({
