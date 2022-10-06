@@ -72,7 +72,7 @@ function Splash() {
           <FsParticleJS />
         </div> */}
       </div>
-      <div className="transition relative">
+      <div className="trs relative">
         <div className="img-holder">
           <div className="work">
             <Image
