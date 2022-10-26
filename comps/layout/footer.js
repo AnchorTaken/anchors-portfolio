@@ -21,7 +21,7 @@ function Footer() {
             <Copy
               copyValue={"Anchor#7851"}
               imgPresent={
-                "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801166/portfolio/discord_qiagch.png"
+                "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801166/portfolio/socials/discord_qiagch.png"
               }
             />{" "}
           </li>
@@ -37,7 +37,7 @@ function Footer() {
               {" "}
               <Image
                 src={
-                  "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801166/portfolio/github_s6l3k7.png"
+                  "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801166/portfolio/socials/github_s6l3k7.png"
                 }
                 layout="fill"
                 objectFit="contain"
@@ -60,7 +60,7 @@ function Footer() {
               {" "}
               <Image
                 src={
-                  "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801166/portfolio/linkedin_udi2xy.png"
+                  "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801166/portfolio/socials/linkedin_udi2xy.png"
                 }
                 layout="fill"
                 objectFit="contain"
@@ -68,18 +68,9 @@ function Footer() {
               />
             </li>
           </a>
-
-          <li data-aos="fade-up" data-aos-delay="800" data-aos-offset="000">
-            <Copy
-              copyValue={"maksvitisevalds@gmail.com"}
-              imgPresent={
-                "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801166/portfolio/email_tldxje.png"
-              }
-            />{" "}
-          </li>
           <a
             data-aos="fade-up"
-            data-aos-delay="900"
+            data-aos-delay="800"
             data-aos-offset="000"
             href="https://www.instagram.com/anchoronai/"
             target="_blank"
@@ -97,6 +88,14 @@ function Footer() {
               />
             </li>
           </a>
+          <li data-aos="fade-up" data-aos-delay="900" data-aos-offset="000">
+            <Copy
+              copyValue={"maksvitisevalds@gmail.com"}
+              imgPresent={
+                "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801166/portfolio/socials/email_tldxje.png"
+              }
+            />{" "}
+          </li>
         </div>
       </ul>{" "}
     </footer>
