@@ -54,7 +54,7 @@ export default function Home() {
           <Projects />
           <div id="jobs"></div>
           <Jobs />
-          <div className="bg-black pt-32">
+          <div className="bg-black cont-padding">
             <div id="contact"></div>
             <Contact />
             <Footer />
