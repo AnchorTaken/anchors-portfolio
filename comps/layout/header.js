@@ -8,7 +8,7 @@ export default function Header() {
   const [menuActive, setMenuActive] = useState(false);
 
   // Nav API
-  const navApi = "https://anchooor.wtf/api/navs/?populate=*";
+  const navApi = "https://anchooor.wtf/api/navs?populate=*";
 
   // Nav menu state
   const [navs, setNav] = useState([]);
@@ -30,11 +30,11 @@ export default function Header() {
             {navs.map((nav, index) => {
               return (
                 <div key={index}>
-                  <a href={nav.url}>
+                  <a href={nav.attributes.url}>
                     <div
                       className="font-title font-nav"
-                      data-aos={nav.animation_type}
-                      data-aos-delay={nav.delay}
+                      data-aos={nav.attributes.animation_type}
+                      data-aos-delay={nav.attributes.delay}
                     >
                       <span>{nav.attributes.number}.</span>{" "}
                       <div className="text">{nav.attributes.name}</div>

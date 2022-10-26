@@ -12,7 +12,9 @@ function Splash() {
           <div className="logo">
             <div className="bleh">
               <Image
-                src={"/assets/img/logo.png"}
+                src={
+                  "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801676/portfolio/logo_ipnpud.png"
+                }
                 layout="fill"
                 objectFit="contain"
                 alt="logo"
@@ -76,7 +78,9 @@ function Splash() {
         <div className="img-holder">
           <div className="work">
             <Image
-              src={"/assets/img/bottom.png"}
+              src={
+                "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801678/portfolio/bottom_y6g2wx.png"
+              }
               layout="fill"
               objectFit="cover"
               alt="logo"

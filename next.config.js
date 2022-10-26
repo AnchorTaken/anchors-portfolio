@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
   images: {
     domains: [
       "cdn.jsdelivr.net",
@@ -7,12 +8,10 @@ const nextConfig = {
       "res.cloudinary.com",
     ],
   },
-  build: {
-    transpile: ["gsap"],
-  },
 };
 const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
 });
 
-module.exports = nextConfig && withBundleAnalyzer({});
+module.exports = nextConfig;
+//  && withBundleAnalyzer({})

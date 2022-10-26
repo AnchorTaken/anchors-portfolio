@@ -10,7 +10,9 @@ function SkillSearch({ active }) {
   const [skillActive, setSkillActive] = useState(999);
   const [apiResponse, setApiResponse] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-
+  const [textShown, setTextShown] = useState(null);
+  const [textTitle, setTextTitle] = useState(null);
+  const [isShown, setIsShown] = useState(false);
   // Get data once
   useEffect(() => {
     const fetchData = async () => {
@@ -30,6 +32,12 @@ function SkillSearch({ active }) {
     fetchData();
   }, []);
 
+  const showAditionalInfo = (title, info) => {
+    setTextTitle(title);
+    setTextShown(info);
+    setIsShown(true);
+    console.log(textShown, textTitle, isShown);
+  };
   return (
     <>
       {isLoading ? (
@@ -55,6 +63,21 @@ function SkillSearch({ active }) {
                 </div>
                 <div className="cool-border relative m-auto bg-white">
                   {" "}
+                  <div className={isShown ? "additional-info" : "hidden"}>
+                    <div className="flex mb-5">
+                      <button
+                        className="back"
+                        onClick={() => setIsShown(false)}
+                      >
+                        {" "}
+                        <i className="gg-chevron-double-left-r"></i>
+                      </button>
+                      <h2 className="currently-reading title mb-4">
+                        {textTitle}
+                      </h2>
+                    </div>
+                    <p className="font-default texto-simple">{textShown}</p>
+                  </div>
                   <div className="search-bar">
                     {/* make the input filter based on cat_name */}
                     <input
@@ -172,9 +195,7 @@ function SkillSearch({ active }) {
                                 >
                                   <div className="skill-grid mb-5 ml-8 lines-under">
                                     <div className="skill-name">Name</div>
-                                    <div className="skill-bar">
-                                      Syntax Knowlage
-                                    </div>
+
                                     <div className="exprience">Confidence</div>
                                   </div>
                                   {category.attributes.list_of_skills
@@ -195,7 +216,7 @@ function SkillSearch({ active }) {
                                             <i className="gg-file"></i>{" "}
                                             {skill.skill_name}
                                           </div>
-                                          <div className="skill-bar">
+                                          {/* <div className="skill-bar">
                                             <div
                                               className={
                                                 skillActive === currentActive
@@ -211,7 +232,7 @@ function SkillSearch({ active }) {
                                                 }}
                                               ></div>
                                             </div>{" "}
-                                          </div>
+                                          </div> */}
                                           <div
                                             className={
                                               skillActive === currentActive
@@ -225,6 +246,27 @@ function SkillSearch({ active }) {
                                               ? skill.note
                                               : ""}
                                           </div>
+                                          {skill.desc !== null ? (
+                                            <button
+                                              className={
+                                                skillActive === currentActive
+                                                  ? `animate__fadeInRight animate__animated`
+                                                  : `animate__fadeOut animate__animated`
+                                              }
+                                              data-animate-delay={index * 100}
+                                              onClick={() =>
+                                                showAditionalInfo(
+                                                  skill.skill_name,
+                                                  skill.desc
+                                                )
+                                              }
+                                            >
+                                              {" "}
+                                              Read More
+                                            </button>
+                                          ) : (
+                                            ""
+                                          )}
                                         </div>
                                       );
                                     })

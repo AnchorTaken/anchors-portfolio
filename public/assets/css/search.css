@@ -230,7 +230,7 @@ Search
 .skill-grid {
   position: relative;
   display: grid;
-  grid-template-columns: 25% 50% 20%;
+  grid-template-columns: 60% 20% 20%;
   grid-auto-rows: 44px;
   grid-column-gap: 20px;
   grid-row-gap: 0px;
@@ -285,4 +285,46 @@ Search
 }
 .search-skills .category-name .line-down.not-active {
   opacity: 0;
+}
+.search-skills .additional-info {
+  left: 0;
+  position: absolute;
+  height: 100%;
+  background: white;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  padding: 20px 30px;
+  border: 1px solid black;
+}
+.search-skills .currently-reading {
+  font-size: 20px;
+  margin: auto;
+  margin-left: 30px;
+}
+.search-skills .texto-simple {
+  line-height: 1.6rem;
+  letter-spacing: 3px;
+  padding-right: 10px;
+  overflow-y: scroll;
+  height: 302px;
+}
+/* width */
+.search-skills .texto-simple::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.search-skills .texto-simple::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.search-skills .texto-simple::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.search-skills .texto-simple::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

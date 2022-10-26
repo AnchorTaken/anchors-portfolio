@@ -125,7 +125,9 @@ function About({ searchBtn, setSea }) {
                 <Parallax speed={-20}>
                   <div className="sq" data-aos="fade-left" data-aos-delay="350">
                     <Image
-                      src={"/assets/img/sq.svg"}
+                      src={
+                        "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801677/portfolio/sq_k9sews.svg"
+                      }
                       layout="fill"
                       objectFit="cover"
                       alt="logo"
@@ -141,7 +143,9 @@ function About({ searchBtn, setSea }) {
                   >
                     <div className="anchor">
                       <Image
-                        src={"/assets/img/street.jpg"}
+                        src={
+                          "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801677/portfolio/street_ezp7cc.jpg"
+                        }
                         layout="fill"
                         objectFit="cover"
                         alt="logo"

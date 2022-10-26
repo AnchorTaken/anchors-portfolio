@@ -48,13 +48,6 @@ function Projects() {
           data-aos="fade-in"
           data-aos-delay="250"
         >
-          {/* <button
-            onClick={() => {
-              setInterested(!interested);
-            }}
-          >
-            interested
-          </button> */}{" "}
           <div className="container m-auto">
             <div className="w-full">
               <div className="flex mb-5">
@@ -174,39 +167,6 @@ function Projects() {
                               hasTransitioned === true && "active"
                             }`}
                           >
-                            {/* <div
-                              className={`curtains ${
-                                hasTransitioned === true && "curtains active"
-                              }`}
-                            >
-                              <div className="left">
-                                {" "}
-                                <div>
-                                  <div className="work">
-                                    <Image
-                                      src={"/assets/img/curtain-left.jpg"}
-                                      layout="fill"
-                                      objectFit="cover"
-                                      alt="logo"
-                                      priority={true}
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                              <div className="right">
-                                <div>
-                                  <div className="work">
-                                    <Image
-                                      src={"/assets/img/curtain-right.jpg"}
-                                      layout="fill"
-                                      objectFit="cover"
-                                      alt="logo"
-                                      priority={true}
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                            </div> */}
                             <div
                               className={
                                 hasTransitioned === true
@@ -217,7 +177,9 @@ function Projects() {
                               <div>
                                 <div className="work">
                                   <Image
-                                    src={"/assets/img/prj-bg.jpg"}
+                                    src={
+                                      "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801676/portfolio/prj-bg_wrxyao.jpg"
+                                    }
                                     layout="fill"
                                     objectFit="cover"
                                     alt="logo"
@@ -247,13 +209,7 @@ function Projects() {
                           {(hasTransitioned || interested) === true && (
                             <>
                               {" "}
-                              <div
-                                className="iframe-wrapper"
-                                // className={`${
-                                //   hasTransitionedIn &&
-                                //   "animate__animated animate__backInDown"
-                                // } iframe-wrapper ${interested && "visible"}`}
-                              >
+                              <div className="iframe-wrapper">
                                 <iframe src={tabber.iframe_url}></iframe>
                               </div>
                             </>
