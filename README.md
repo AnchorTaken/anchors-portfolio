@@ -10,14 +10,16 @@ Use the NPM package manager to install the portfolio.
 npm i
 ```
 
-## Usage
+## Development
 
-```dev launch
+```bash
 yarn dev
 
-```build
-yarn build 
+```
+## Build
 
+```bash
+yarn build 
 ```
 
 Please don't judge my code too much. It is a little messy but I tried to keep it as readable as possible. This was a learning project for me as I only learned React about a year ago
