@@ -761,6 +761,7 @@ Optimised up until here
   border-bottom: 1px solid white;
   outline: none;
   color: white;
+  resize: none;
   transition: ease all 0.2s;
 }
 .contact .contact-form input:focus,
@@ -1159,23 +1160,18 @@ footer h2 {
   --ggs: 0.7;
   margin-right: 10px;
 }
-.temple {
-  width: 100%;
-  height: 242px;
-  display: block;
-}
+
 .job_sec .descr span {
   font-family: var(--ff--normal);
 }
-/* .jooooimg .img-holder {
-  position: relative;
-  height: 767px;
+.temple {
+  height: 960px;
   position: absolute;
-  top: -282px;
+  top: -749px;
   width: 100%;
+  z-index: 10;
 }
-
-.jooooimg .img-holder.last .work {
+/* .temple .img-holder.last .work {
   height: 404px;
   top: -76px;
 } */
