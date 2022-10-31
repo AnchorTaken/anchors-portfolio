@@ -39,7 +39,6 @@ function SkillSearch({ active }) {
     setTextTitle(title);
     setTextShown(info);
     setIsShown(true);
-    console.log(textShown, textTitle, isShown);
   };
   return (
     <>
@@ -209,46 +208,43 @@ function SkillSearch({ active }) {
                                           className="skill-grid pl-8 inner"
                                         >
                                           {" "}
-                                          <div className="wrap-this-for-phones">
-                                            <div
-                                              className={
-                                                skillActive === currentActive
-                                                  ? `skill-name animate__fadeInDown animate__animated grid`
-                                                  : `skill-name animate__fadeOut animate__animated`
-                                              }
-                                              data-animate-delay={index * 100}
-                                            >
-                                              {" "}
-                                              <div className="skill-name font-bold ">
-                                                Name
-                                              </div>
-                                              <i className="gg-file"></i>{" "}
-                                              {skill.skill_name}
+                                          <div
+                                            className={
+                                              skillActive === currentActive
+                                                ? `skill-name box-1 animate__fadeInDown animate__animated grid`
+                                                : `skill-name box-1 animate__fadeOut animate__animated`
+                                            }
+                                            data-animate-delay={index * 100}
+                                          >
+                                            {" "}
+                                            <div className="skill-name font-bold hide-pc">
+                                              Name
                                             </div>
-
-                                            <div
-                                              className={
-                                                skillActive === currentActive
-                                                  ? `skill-name onthe-right animate__fadeInRight animate__animated`
-                                                  : `skill-name onthe-right animate__fadeOut animate__animated`
-                                              }
-                                              data-animate-delay={index * 100}
-                                            >
-                                              <div className="skill-name font-bold">
-                                                Confidence
-                                              </div>
-                                              {skill.confidence}{" "}
-                                              {skill.note !== null
-                                                ? skill.note
-                                                : ""}
+                                            <i className="gg-file"></i>{" "}
+                                            {skill.skill_name}
+                                          </div>
+                                          <div
+                                            className={
+                                              skillActive === currentActive
+                                                ? `skill-name box-2 onthe-right animate__fadeInRight animate__animated`
+                                                : `skill-name box-2 onthe-right animate__fadeOut animate__animated`
+                                            }
+                                            data-animate-delay={index * 100}
+                                          >
+                                            <div className="skill-name font-bold hide-pc">
+                                              Confidence
                                             </div>
+                                            {skill.confidence}{" "}
+                                            {skill.note !== null
+                                              ? skill.note
+                                              : ""}
                                           </div>
                                           {skill.desc !== null ? (
                                             <button
                                               className={
                                                 skillActive === currentActive
-                                                  ? `animate__fadeInRight animate__animated`
-                                                  : `animate__fadeOut animate__animated`
+                                                  ? `animate__fadeInRight animate__animated box-3`
+                                                  : `animate__fadeOut animate__animated box-3`
                                               }
                                               data-animate-delay={index * 100}
                                               onClick={() =>
