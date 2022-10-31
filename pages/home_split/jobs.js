@@ -39,7 +39,7 @@ function Jobs() {
       ) : (
         <>
           {" "}
-          <div className="rapper" data-aos="fade-in" data-aos-delay="150">
+          <div className="rapper relative" data-aos="fade-in">
             <div className="img-holder temple">
               <div className="work">
                 <Image

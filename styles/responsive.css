@@ -7,19 +7,19 @@
 /* Mobile */
 @media (max-width: 1065px) {
   .splash .splash-text .font-title {
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 24px;
+    line-height: 26px;
   }
   .splash-text p {
     width: 92%;
-    font-size: 14px;
+    font-size: 11px;
   }
   .splash-text {
     margin-right: 3rem;
     width: 79%;
   }
   .splash-text .smaller {
-    font-size: 15px;
+    font-size: 12px;
     height: unset;
   }
   .splash .logo {
@@ -28,18 +28,32 @@
     left: 38px;
     overflow: hidden;
   }
-  .splash::after {
-    width: 89vw;
+  .splash {
+    height: 75vh;
   }
-  .splash::before {
-    height: 87vh;
+  .splash .lines::before {
+    height: calc(90% - 50px);
+  }
+  .splash .lines::after {
+    width: 90%;
+  }
+  .home .about .tables ul {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+  .splash .logo-top-left {
+    display: block;
   }
   .trs .img-holder {
     height: 75px;
   }
   .email {
     font-size: 10px;
-    bottom: 361px;
+    bottom: 0;
+    top: -72px;
+    margin: auto;
+    height: fit-content;
   }
   .email:after {
     right: 8px;
@@ -138,20 +152,7 @@
     height: 170px;
     top: -150px;
   }
-  .splash .lines::before {
-    height: 89%;
-  }
-  .splash .lines::after {
-    width: 90%;
-  }
-  .home .about .tables ul {
-    columns: 1;
-    -webkit-columns: 1;
-    -moz-columns: 1;
-  }
-  .splash .logo-top-left {
-    display: block;
-  }
+
   .job_sec {
     padding-top: 99px;
     margin-top: 0px;
@@ -259,5 +260,15 @@
   }
   .mobile {
     display: block;
+  }
+  .temple {
+    height: 203px;
+    position: absolute;
+    top: -198px;
+    width: 100%;
+    z-index: 10;
+  }
+  .rapper {
+    margin-top: 200px;
   }
 }

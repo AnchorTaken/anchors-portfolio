@@ -36,10 +36,16 @@ function MyApp({ Component, pageProps }) {
           property="og:description"
           content="Anchor’s Portfolio. I am an aspiring front end designer. I admire beautiful things and aspire to build websites and experiences to wow people without sacrificing user experience. "
         />
-        <meta property="og:image" content="/logo.png" />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dmoxrn44i/image/upload/v1667245019/portfolio/512_bmmdy6.png"
+        />
         <meta property="og:url" content="https://anchooor.wtf" />
         {/* Twitter Post */}
-        <meta name="twitter:card" content="/logo.png" />
+        <meta
+          name="twitter:card"
+          content="https://res.cloudinary.com/dmoxrn44i/image/upload/v1667245019/portfolio/512_bmmdy6.png"
+        />
         <meta name="twitter:site" content="@anchoronai" />
         <meta name="twitter:creator" content="@anchoronai" />
         <meta name="twitter:title" content="Anchor - Portfolio" />
@@ -47,7 +53,10 @@ function MyApp({ Component, pageProps }) {
           name="twitter:description"
           content="Anchor’s Portfolio. I am an aspiring front end designer. I admire beautiful things and aspire to build websites and experiences to wow people without sacrificing user experience. "
         />
-        <meta name="twitter:image" content="/logo.png" />
+        <meta
+          name="twitter:image"
+          content="https://res.cloudinary.com/dmoxrn44i/image/upload/v1667245019/portfolio/512_bmmdy6.png"
+        />
       </Head>
       <Layout>
         <Component {...pageProps} />
