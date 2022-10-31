@@ -1,6 +1,18 @@
-# Anchor's Portfolio
+
+![Logo](https://res.cloudinary.com/dmoxrn44i/image/upload/v1667244422/portfolio/twitter_nypvey.png)
+
+
+# Hi, I'm Anchor! 👋
+
+
+## 🚀 About Me
+I am a front end web designer that is focused on delivering the most engaging and stunning experiences to the user without sacrifice of experience.
+
+
+# Portfolio
 
 Anchor's Portfolio is a React & Next.JS website for the purpose of showacasing my previous work
+
 
 ## Installation
 
@@ -21,8 +33,3 @@ yarn dev
 ```bash
 yarn build 
 ```
-
-Please don't judge my code too much. It is a little messy but I tried to keep it as readable as possible. This was a learning project for me as I only learned React about a year ago
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
