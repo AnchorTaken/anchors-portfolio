@@ -19,7 +19,7 @@ function SkillSearch({ active }) {
     const fetchData = async () => {
       try {
         const res = await axios.get(
-          "https://anc4hooor.wtf/api/skill-categories?populate=*"
+          "https://anchooor.wtf/api/skill-categories?populate=*"
         );
 
         setApiResponse(res.data.data.reverse());
@@ -34,12 +34,11 @@ function SkillSearch({ active }) {
     };
     fetchData();
   }, []);
-  console.log(apiResponse, skills);
+
   const showAditionalInfo = (title, info) => {
     setTextTitle(title);
     setTextShown(info);
     setIsShown(true);
-    console.log(textShown, textTitle, isShown);
   };
   return (
     <>
@@ -60,7 +59,7 @@ function SkillSearch({ active }) {
                       : "title m-auto relative mt-10 animate__fadeOutRight animate__animated"
                   }
                 >
-                  <h2 className="font-title title mb-2">
+                  <h2 className="font-title title mb-2 phone-spacing">
                     What are you looking for ?
                   </h2>
                 </div>
@@ -196,7 +195,7 @@ function SkillSearch({ active }) {
                                     skillActive === index ? `` : `absolute`
                                   }
                                 >
-                                  <div className="skill-grid mb-5 ml-8 lines-under">
+                                  <div className="skill-grid top-titlles mb-5 ml-8 lines-under">
                                     <div className="skill-name">Name</div>
 
                                     <div className="exprience">Confidence</div>
@@ -208,42 +207,33 @@ function SkillSearch({ active }) {
                                           key={index}
                                           className="skill-grid pl-8 inner"
                                         >
+                                          {" "}
                                           <div
                                             className={
                                               skillActive === currentActive
-                                                ? `skill-name animate__fadeInDown animate__animated`
-                                                : `skill-name animate__fadeOut animate__animated`
+                                                ? `skill-name box-1 animate__fadeInDown animate__animated grid`
+                                                : `skill-name box-1 animate__fadeOut animate__animated`
                                             }
                                             data-animate-delay={index * 100}
                                           >
+                                            {" "}
+                                            <div className="skill-name font-bold hide-pc">
+                                              Name
+                                            </div>
                                             <i className="gg-file"></i>{" "}
                                             {skill.skill_name}
                                           </div>
-                                          {/* <div className="skill-bar">
-                                            <div
-                                              className={
-                                                skillActive === currentActive
-                                                  ? `bar animate__fadeInUp animate__animated`
-                                                  : `bar animate__fadeOut animate__animated`
-                                              }
-                                              data-animate-delay={index * 100}
-                                            >
-                                              <div
-                                                className={"inner"}
-                                                style={{
-                                                  width: +skill.exp + "%",
-                                                }}
-                                              ></div>
-                                            </div>{" "}
-                                          </div> */}
                                           <div
                                             className={
                                               skillActive === currentActive
-                                                ? `animate__fadeInRight animate__animated`
-                                                : `animate__fadeOut animate__animated`
+                                                ? `skill-name box-2 onthe-right animate__fadeInRight animate__animated`
+                                                : `skill-name box-2 onthe-right animate__fadeOut animate__animated`
                                             }
                                             data-animate-delay={index * 100}
                                           >
+                                            <div className="skill-name font-bold hide-pc">
+                                              Confidence
+                                            </div>
                                             {skill.confidence}{" "}
                                             {skill.note !== null
                                               ? skill.note
@@ -253,8 +243,8 @@ function SkillSearch({ active }) {
                                             <button
                                               className={
                                                 skillActive === currentActive
-                                                  ? `animate__fadeInRight animate__animated`
-                                                  : `animate__fadeOut animate__animated`
+                                                  ? `animate__fadeInRight animate__animated box-3`
+                                                  : `animate__fadeOut animate__animated box-3`
                                               }
                                               data-animate-delay={index * 100}
                                               onClick={() =>
