@@ -1,0 +1,494 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "cat_name": "Node.JS",
+        "createdAt": "2022-08-26T10:11:02.277Z",
+        "updatedAt": "2022-10-12T14:40:08.325Z",
+        "publishedAt": "2022-08-26T10:11:03.062Z",
+        "exp": null,
+        "confidence": "Very Good",
+        "list_of_skills": [
+          {
+            "id": 2,
+            "skill_name": "Next.JS",
+            "desc": "lmao",
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 3,
+            "skill_name": "Tailwind.css",
+            "desc": null,
+            "exp": 70,
+            "confidence": "Good",
+            "note": null
+          },
+          {
+            "id": 4,
+            "skill_name": "React.JS",
+            "desc": "asd",
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 15,
+            "skill_name": "AOS.JS",
+            "desc": null,
+            "exp": 90,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 16,
+            "skill_name": "Axios",
+            "desc": null,
+            "exp": 70,
+            "confidence": "Good",
+            "note": null
+          },
+          {
+            "id": 17,
+            "skill_name": "Animate.css",
+            "desc": null,
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 46,
+            "skill_name": "NPM",
+            "desc": null,
+            "exp": 85,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 47,
+            "skill_name": "Yarn",
+            "desc": null,
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 48,
+            "skill_name": "Express.JS",
+            "desc": null,
+            "exp": 35,
+            "confidence": "Lack Knowedge ",
+            "note": null
+          },
+          {
+            "id": 49,
+            "skill_name": "Strapi CMS",
+            "desc": null,
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "cat_name": "Microsoft Suite",
+        "createdAt": "2022-08-28T13:09:19.484Z",
+        "updatedAt": "2022-10-12T14:15:12.835Z",
+        "publishedAt": "2022-08-28T13:09:20.176Z",
+        "exp": null,
+        "confidence": null,
+        "list_of_skills": [
+          {
+            "id": 11,
+            "skill_name": "Microsoft Word",
+            "desc": "lmao",
+            "exp": 100,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 13,
+            "skill_name": "Microsoft PowerPoint",
+            "desc": "asd",
+            "exp": 70,
+            "confidence": "Average",
+            "note": null
+          },
+          {
+            "id": 12,
+            "skill_name": "Microsoft Excel",
+            "desc": null,
+            "exp": 85,
+            "confidence": "Good",
+            "note": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "cat_name": "Web Dev Front End ",
+        "createdAt": "2022-10-12T14:25:28.460Z",
+        "updatedAt": "2022-10-12T14:43:09.220Z",
+        "publishedAt": "2022-10-12T14:25:40.684Z",
+        "exp": 90,
+        "confidence": "Very Good",
+        "list_of_skills": [
+          {
+            "id": 18,
+            "skill_name": "Logical UI and UX structure",
+            "desc": null,
+            "exp": 90,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 19,
+            "skill_name": "Clean and pretty UI design",
+            "desc": null,
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 20,
+            "skill_name": "Smooth transitions between actions",
+            "desc": null,
+            "exp": 90,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 21,
+            "skill_name": "Lightning fast loading time",
+            "desc": null,
+            "exp": 90,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 50,
+            "skill_name": "SEO Optimisation",
+            "desc": null,
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 51,
+            "skill_name": "Material Design",
+            "desc": null,
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "cat_name": "Web Dev Back End ",
+        "createdAt": "2022-10-12T14:27:26.036Z",
+        "updatedAt": "2022-10-12T14:47:26.046Z",
+        "publishedAt": "2022-10-12T14:27:33.767Z",
+        "exp": null,
+        "confidence": "Good",
+        "list_of_skills": [
+          {
+            "id": 57,
+            "skill_name": "API",
+            "desc": "Usage of third party and first party apis",
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "cat_name": "Soft Skills",
+        "createdAt": "2022-10-12T14:29:20.868Z",
+        "updatedAt": "2022-10-12T14:45:45.401Z",
+        "publishedAt": "2022-10-12T14:29:21.168Z",
+        "exp": 80,
+        "confidence": "Good",
+        "list_of_skills": [
+          {
+            "id": 23,
+            "skill_name": "Desire to Grow",
+            "desc": null,
+            "exp": 90,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 52,
+            "skill_name": "Problem Solving Mindset",
+            "desc": null,
+            "exp": 90,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 53,
+            "skill_name": "Good Communication Skills",
+            "desc": null,
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 54,
+            "skill_name": "Good time managment ",
+            "desc": null,
+            "exp": 75,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 55,
+            "skill_name": "Undestaning the Needs",
+            "desc": null,
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 56,
+            "skill_name": "Adapting to the usecase of the website",
+            "desc": null,
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "cat_name": "Google Suite",
+        "createdAt": "2022-10-12T14:29:58.126Z",
+        "updatedAt": "2022-10-12T16:48:14.967Z",
+        "publishedAt": "2022-10-12T14:29:58.377Z",
+        "exp": 80,
+        "confidence": "Very Good",
+        "list_of_skills": [
+          {
+            "id": 24,
+            "skill_name": "Google Sheets",
+            "desc": "Google Sheets are an amazing tool next to Excel. I personally thing sheets are better but lack some of the cool features excel does. What makes up for that is the fully online functionallity and collaborative work. I am very experienced when it comes to sheets and can easily say it would not take me any effort to make a sheets document. I have used sheets to make personal tracking sheets for finances, documents to aid in structuring my sense of direction and organisation amongs many many things. My most complex sheet was created when I was very heavily involved in a trading scene of an online game. The game has a ton of items that have real life value and I wanted to see the kind of results I was getting buying certain items. I started by mentally tracking the prices of items and doing my best to estimate the value of my investments. That didn't go very far. When you are buying and selling thousands of items it becomes virtually impossible to track the prices. So I started using sheets. I began by writing down the prices of items in the doc but that also would not be sustainable as there are just too many items to update. I then found out that sheets come preinstalled with a web scraper. So I sat down one day and scraped the links for all the prices. Then I made it pretty and easy to read and violla. I have a spredsheet that updates itself and can show me where I stand.\n\nps: that same spreadsheet is also saving all the prices onto another page so that i can see the price progression over time and make better educated gueeses\n",
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 25,
+            "skill_name": "Google Docs",
+            "desc": "I don't have very much to put here. I have used Docs many many many times before and will do again. They are amazing because its just word but simpler in terms of its functionallity. I have used docs previously for clients to take notes and desires to make sure I add everything they want and change.",
+            "exp": 90,
+            "confidence": "Very Good",
+            "note": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "cat_name": "Adobe Suite",
+        "createdAt": "2022-10-12T14:30:53.991Z",
+        "updatedAt": "2022-10-12T16:37:08.789Z",
+        "publishedAt": "2022-10-12T14:30:54.233Z",
+        "exp": 80,
+        "confidence": "Very Good",
+        "list_of_skills": [
+          {
+            "id": 26,
+            "skill_name": "Photoshop",
+            "desc": "I have worked with Photoshop years before my carrier as a web designer. I used to draw a bit and edit images together for fun. Photoshop was my go to as it was as versatile as it gets. I'd describe my work in photoshop as editorial. I can change the source material to be better but not create something from the scratch. I can make banners as my twitter banner shows and am very capable but if the source image is not good enough the result will suffer in quality. Photoshop is essential for me as a designer as most of the time the image that you get is simply not good enough to go on the home page as a banner and a few simple tweaks to colors and crop can do wonders for the overall feel of the image. ",
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 27,
+            "skill_name": "Illustrator",
+            "desc": "I have worked with illustrator a couple of times in the past so I wouldn't exactly say I have no experience with the software but I would qualify as bare minumum. I have used it in the past. Found that It did not do what I needed at the time and haven't used it since. However I am familiar with the UI and the use cases it would be imparetive to have. e.g vector graphics",
+            "exp": 20,
+            "confidence": "Lack Knowedge ",
+            "note": null
+          },
+          {
+            "id": 28,
+            "skill_name": "Premier Pro",
+            "desc": "Premier has been my go to software for video editing and I am extremely familiar with it. I've edited professional videos for work. Things like ads and instructional videos. as well as for my own entertainment. Things like videos of funny things happening. Videos for friends and so on. I have a pretty long history with the software and I can confidently say I am very capable when it comes to Premier.",
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 35,
+            "skill_name": "After Effects",
+            "desc": null,
+            "exp": 30,
+            "confidence": "Lack Knowedge ",
+            "note": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "cat_name": "Languages",
+        "createdAt": "2022-10-12T14:31:48.785Z",
+        "updatedAt": "2022-10-12T14:35:32.484Z",
+        "publishedAt": "2022-10-12T14:31:49.555Z",
+        "exp": 80,
+        "confidence": "Very Good",
+        "list_of_skills": [
+          {
+            "id": 29,
+            "skill_name": "JavaScript",
+            "desc": null,
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 30,
+            "skill_name": "CSS",
+            "desc": null,
+            "exp": 98,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 31,
+            "skill_name": "HTML",
+            "desc": null,
+            "exp": 100,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 39,
+            "skill_name": "PHP",
+            "desc": null,
+            "exp": 75,
+            "confidence": "Haven't used in a while",
+            "note": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "cat_name": "Windows",
+        "createdAt": "2022-10-12T14:34:46.766Z",
+        "updatedAt": "2022-10-12T14:34:47.672Z",
+        "publishedAt": "2022-10-12T14:34:47.671Z",
+        "exp": 95,
+        "confidence": "Very Good",
+        "list_of_skills": [
+          {
+            "id": 36,
+            "skill_name": "Bug Fixing",
+            "desc": null,
+            "exp": 90,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 37,
+            "skill_name": "Day to day use issues",
+            "desc": null,
+            "exp": 95,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 38,
+            "skill_name": "Windows Setup ",
+            "desc": null,
+            "exp": 100,
+            "confidence": "Very Good",
+            "note": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "cat_name": "Linux",
+        "createdAt": "2022-10-12T14:37:05.757Z",
+        "updatedAt": "2022-10-12T14:38:12.971Z",
+        "publishedAt": "2022-10-12T14:37:06.418Z",
+        "exp": 70,
+        "confidence": "Good",
+        "list_of_skills": [
+          {
+            "id": 40,
+            "skill_name": "VPS Setup",
+            "desc": null,
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 41,
+            "skill_name": "VPS Keepup",
+            "desc": null,
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 42,
+            "skill_name": "Terminal Familiarity",
+            "desc": null,
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          },
+          {
+            "id": 43,
+            "skill_name": "NGINX setup and usage",
+            "desc": null,
+            "exp": 70,
+            "confidence": "Good",
+            "note": null
+          },
+          {
+            "id": 44,
+            "skill_name": "VPS routing",
+            "desc": null,
+            "exp": 80,
+            "confidence": "Very Good",
+            "note": null
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 10
+    }
+  }
+}

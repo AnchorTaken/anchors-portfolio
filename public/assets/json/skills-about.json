@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "createdAt": "2022-08-30T13:32:58.846Z",
+        "updatedAt": "2022-08-30T13:33:16.942Z",
+        "publishedAt": "2022-08-30T13:32:59.055Z",
+        "skill_list": [
+          {
+            "id": 13,
+            "__component": "tags.tags",
+            "tag": "React"
+          },
+          {
+            "id": 14,
+            "__component": "tags.tags",
+            "tag": "Next.JS"
+          },
+          {
+            "id": 15,
+            "__component": "tags.tags",
+            "tag": "Tailwind.CSS"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 1
+    }
+  }
+}

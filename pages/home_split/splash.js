@@ -8,7 +8,7 @@ function Splash() {
     <>
       {" "}
       <div className="splash z-10">
-        <div className="relative z-10 flex">
+        <div className="relative z-10 flex lines w-full h-full">
           <div className="logo">
             <div className="bleh">
               <Image
@@ -84,6 +84,8 @@ function Splash() {
               layout="fill"
               objectFit="cover"
               alt="logo"
+              height={"176px"}
+              width={"100%"}
               priority={true}
             />
           </div>

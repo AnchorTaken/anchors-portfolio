@@ -3,6 +3,7 @@ import { Parallax, ParallaxProvider } from "react-scroll-parallax";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import SkillSearch from "../../comps/utils/skillSearch.js";
+import redundency from "/public/assets/json/skills-about.json";
 
 function About({ searchBtn, setSea }) {
   // Nav menu state
@@ -20,7 +21,8 @@ function About({ searchBtn, setSea }) {
         setSkills(res.data.data);
         setIsLoading(false);
       } catch (error) {
-        console.log(error.message);
+        setSkills(redundency.data);
+        setIsLoading(false);
       }
     };
     fetchData();

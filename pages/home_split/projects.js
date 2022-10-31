@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Image from "next/image";
 import useMountTransition from "../../comps/utils/transition.js";
+import redundency from "/public/assets/json/projects.json";
 
 function Projects() {
   // States
@@ -29,7 +30,8 @@ function Projects() {
         setTabs(res.data.data);
         setIsLoading(false);
       } catch (error) {
-        console.log(error.message);
+        setTabs(redundency.data);
+        setIsLoading(false);
       }
     };
 

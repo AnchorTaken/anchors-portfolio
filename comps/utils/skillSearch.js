@@ -1,6 +1,7 @@
 // import things for api axios, useEffect, useState
 import axios from "axios";
 import { useEffect, useState } from "react";
+import redundency from "/public/assets/json/skills.json";
 
 function SkillSearch({ active }) {
   // Nav API
@@ -18,7 +19,7 @@ function SkillSearch({ active }) {
     const fetchData = async () => {
       try {
         const res = await axios.get(
-          "https://anchooor.wtf/api/skill-categories?populate=*"
+          "https://anc4hooor.wtf/api/skill-categories?populate=*"
         );
 
         setApiResponse(res.data.data.reverse());
@@ -26,12 +27,14 @@ function SkillSearch({ active }) {
 
         setIsLoading(false);
       } catch (error) {
-        console.log(error.message);
+        setApiResponse(redundency.data.reverse());
+        setSkills(redundency.data.reverse());
+        setIsLoading(false);
       }
     };
     fetchData();
   }, []);
-
+  console.log(apiResponse, skills);
   const showAditionalInfo = (title, info) => {
     setTextTitle(title);
     setTextShown(info);

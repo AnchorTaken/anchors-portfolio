@@ -23,11 +23,31 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charSet="utf-8" />
         <title>Anchor - Portfolio</title>
-        <meta name="description" content="IDK DESC OR SMTN" />
-        <link rel="icon" href="/logo.png" />
-        <link rel="apple-touch-icon" href="/logo.png" />
+        <meta name="author" content="Anchor" />
+        {/* <link rel="manifest" href="/manifest.json" /> */}
         <meta name="theme-color" content="#000000" />
-        <meta name="author" content="" />
+        {/* Icons */}
+        <link rel="icon" href="/logo.png" />{" "}
+        <link rel="mask-icon" href="/logo.png" color="#000000" />
+        <link rel="apple-touch-icon" href="/logo.png" />
+        {/* Embeds */}
+        <meta property="og:title" content="Anchor - Portfolio" />
+        <meta
+          property="og:description"
+          content="Anchor’s Portfolio. I am an aspiring front end designer. I admire beautiful things and aspire to build websites and experiences to wow people without sacrificing user experience. "
+        />
+        <meta property="og:image" content="/logo.png" />
+        <meta property="og:url" content="https://anchooor.wtf" />
+        {/* Twitter Post */}
+        <meta name="twitter:card" content="/logo.png" />
+        <meta name="twitter:site" content="@anchoronai" />
+        <meta name="twitter:creator" content="@anchoronai" />
+        <meta name="twitter:title" content="Anchor - Portfolio" />
+        <meta
+          name="twitter:description"
+          content="Anchor’s Portfolio. I am an aspiring front end designer. I admire beautiful things and aspire to build websites and experiences to wow people without sacrificing user experience. "
+        />
+        <meta name="twitter:image" content="/logo.png" />
       </Head>
       <Layout>
         <Component {...pageProps} />

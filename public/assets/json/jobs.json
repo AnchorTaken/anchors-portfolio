@@ -1,41 +1,166 @@
-[
-  {
-    "name": "Job Name",
-    "company": "Company",
-    "description": [
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!"
-    ],
-    "number": "0",
-    "url": "http://www.vizintin.com/",
-    "tags": ["React", "NEXT JS", "Tailwind CSS"],
-    "delay": "one"
-  },
-  {
-    "name": "Vizintin Yachts2",
-    "company": "Company",
-    "description": [
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!"
-    ],
-    "number": "1",
-    "url": "http://www.vizintin.com/",
-    "tags": ["React", "NEXT JS", "Tailwind CSS"],
-    "delay": "two"
-  },
-  {
-    "name": "Vizintin Yachts3",
-    "company": "Company",
-    "description": [
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto officia ullam molestias!"
-    ],
-    "number": "2",
-    "url": "http://www.vizintin.com/",
-    "tags": ["React", "NEXT JS", "Tailwind CSS"],
-    "delay": "three"
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "name": "Front End Web Dev",
+        "comp_name": "Worldview",
+        "createdAt": "2022-08-27T11:20:48.375Z",
+        "updatedAt": "2022-10-26T14:35:37.831Z",
+        "publishedAt": "2022-08-27T11:22:48.353Z",
+        "num": 0,
+        "url": "http://www.vizintin.com/",
+        "delay": "one",
+        "desc": [
+          {
+            "id": 3,
+            "__component": "desc.desc",
+            "desc": "Findadmission was my second project I was envolved in for the rest of my employment. It was a platform where studenst from africa would submit their documents and other information to then have access to international univercities that worked with the company.  Findadmission was by far one of the most complex platform I worked on with users being able to do very many different things and the user experience had to be perfect in order for the user not to be confused. <br/><br/>That experience helped me polish my fresh knowledge of UX, JS and improve my abilities to colaborate with other programmers as I was not the only person working on the project. I began by building small unimportant comonents with slowly expanding to more and more. <br/><br/>The platform used a popular at the time framework Angular and that was my introduction to TS and JS. I was able to complete very many different things for the platform including overhauling the homepage. <br/><br/>Updating the UI. Improving the user experience by removing or adding things to make sure the path for the user is clear. Clean up the css and optimise the loading times as well as bug test. During my time there I reported very many different bugs ranging in severity from simple things that could result in poor user experience to issues with some fields being exposed to SQL injections. ",
+            "prj_name": "Findadmission"
+          },
+          {
+            "id": 2,
+            "__component": "desc.desc",
+            "desc": "Worldview events was the first big project I managed and I was tasked to create a website to be the front of the event side of Worldview. This project was my jump start to HTML, CSS, PHP, UX and UI. I spent countless hours learning and understanding how the languanges work, how to use them and what is deemed to be good by industry standarts. This is where I picked up my love for material design and less is more. <br/><br/>This project thought me how to build pages for user experience. Displaying information in a way to ensure user gets all the information needed and guiding the user through the experience. This project helped me not only get the grasp of basic 3 languages, it also thought me PHP.  ",
+            "prj_name": "Worldview Events"
+          },
+          {
+            "id": 1,
+            "__component": "desc.desc",
+            "desc": "I built and maintained very many projects at Worldview and was involved to some capacity in basically everything in the company. As this was my first job in web development and my introduction programming most of my work by my todays standart was sub par however my employer loved every single bit of it. Sadly most of it is lost to time. However I'll do my best to describe my most involved in projects and where I can provide the links to the websites.\n",
+            "prj_name": "General"
+          }
+        ],
+        "skills_learned": [
+          {
+            "id": 6,
+            "__component": "tags.tags",
+            "tag": "Basics for JS"
+          },
+          {
+            "id": 5,
+            "__component": "tags.tags",
+            "tag": "CSS"
+          },
+          {
+            "id": 4,
+            "__component": "tags.tags",
+            "tag": "HTML"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "name": "Front End Web Dev",
+        "comp_name": "ITRSQ",
+        "createdAt": "2022-08-27T11:33:20.028Z",
+        "updatedAt": "2022-10-26T14:36:19.164Z",
+        "publishedAt": "2022-08-27T11:33:20.321Z",
+        "num": 1,
+        "url": "http://www.vizintin.com/",
+        "delay": "one",
+        "desc": [
+          {
+            "id": 9,
+            "__component": "desc.desc",
+            "desc": "Vizintin Yachts was the last project I did for ITRSQ before my deprature. Vizintin Yachts is a company specialising in bespoke yacht manifacturing and they needed a luxiorious website for their business. The project began by talking to the client and gathering all the requirments and information that would need to appear on the website. I then proceeded to scout for more information and ideas on what exactly I was working with. I began with scouting the competitor websites but that did not bare as many fruits as I hoped for. My insparation was not coming to me and that is sometimes how some projects begin. So I began building a boiler plate for the website. Things that I would need. Whilst doing that I finially had a lightbulb moment. I ran and looked at luxary car websites. Bughatti, Lamborghini, RR, Bentley and many many others. I finally started pieceing together the vision for the pages. Simple. sleek and clean. I drafter a rough idea of what I wanted to do for the website and started putting things together. Slider here, banner here. Couple days pass and I begin to have someting that I could call luxurious. Clean animations. Pretty banner. Impressive load times and aesthetic UI. \n<br/><br/>\nThe client had a very unique request. Something I havent done before and had no idea how to do. The RR website had a very interesting interation on the website. When you scroll down the page from the top. The first banner image on the page. would slowly start blurring and continue bluring until you no longer have the image withing the window. I had no idea where to start so I quickly googled the problem. Stackoverflow gave me some responses but nothing concrete. It needed more time. I finally found something that I could use as an example evethough the usecase for that code was different. I grabbed it. Wrote a little code that can be summerised in: grab the id of the element > find the scroll bar position and then apply that as a value for the blur on the element. Works. Kind of. Bugs were inevitable, but I didn't know how to fix them. One of which was the page not responding correctly to the blur. It was too much. Fixed that by increasing the steps for the value by dividing the value that the scroll bar was providing. The page would not update the value unless you scroll it. Fixed that by having the useEffect update in the background. and as the last thing I added the cap of how blurred the banner would get as I wanted it to be only between a sertain range due to aesthetic look being more pleasant. \nThese were the main hurdles I encountered with this website. Some honorable mentions are an extremely specific menu design that took a lot of tinkering to get perfect, learning how backdrop filters work.\n<br/><br/>\nThis also was the first project we decided to use Tailwind.css for and I learned a hard lesson about how that framework works. Now that I have used it. It's very obvious but at the time I thought I was using it wrong. Tailwind should only be used where you feel like it should be and nowhere else. Tailwind is incredible if used correctly. Things in my opinion tailwind sucks at: Layouts, grids, Flex grids and boxes and sizing. Tailwind excells at spacings, text customisiation like bolding, underlying and very many other things. The file size for CSS sheet that was the result of the whole page was 90% smaller than if I wouldve written everything myself and the time save is incredible. ",
+            "prj_name": "Vizintin Yachts"
+          },
+          {
+            "id": 8,
+            "__component": "desc.desc",
+            "desc": "LGGA was my second project and was fully built by me from the ground up using even more React trickery. The website was built for a friend that needed a website and asked my employer to basically hire me. There was a lot of ",
+            "prj_name": "LGGA"
+          },
+          {
+            "id": 7,
+            "__component": "desc.desc",
+            "desc": "So for one of my first assignemnts I took it upon myself to repair the damage done to the company website. The UI and UX were horrible and the website just did not look good. As I have not worked with react before it was a very slow process of learning and understanding how the framework functionned. <br/><br/>Slowly but surely I clawed back at issue after an issue and it started to look significantly better and function like the website it was supposed to be. No functionallity was changed at that time as I was still inexperienced and very capable at non distructive code alterations. First stages were just chaning the layouts and colors on the website. Cleaned up the random gradient here a border there. <br/><br/>Then I learned what AOS.js is and the fun truly began. Loading animations. Everywhere. I learned that loading animations make everything better. Then I learned about the loading components and components in general and that allowed me to seriously re structure the website to what I deemed to be the right way for it to look. <br/><br/>My employer agreed. Months of work. Fruitful. It ended up being something I pride myself on and definetly one of my best works. ",
+            "prj_name": "ITRSQ "
+          }
+        ],
+        "skills_learned": [
+          {
+            "id": 10,
+            "__component": "tags.tags",
+            "tag": "React"
+          },
+          {
+            "id": 11,
+            "__component": "tags.tags",
+            "tag": "Next.JS"
+          },
+          {
+            "id": 12,
+            "__component": "tags.tags",
+            "tag": "Tailwind.css"
+          },
+          {
+            "id": 43,
+            "__component": "tags.tags",
+            "tag": "AOS.js"
+          },
+          {
+            "id": 44,
+            "__component": "tags.tags",
+            "tag": "API Basics"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "name": "Personal Projects",
+        "comp_name": "Me",
+        "createdAt": "2022-10-12T14:51:02.508Z",
+        "updatedAt": "2022-10-26T13:54:29.704Z",
+        "publishedAt": "2022-10-12T14:53:45.382Z",
+        "num": 2,
+        "url": "1",
+        "delay": "256",
+        "desc": [
+          {
+            "id": 11,
+            "__component": "desc.desc",
+            "desc": "Hashtag Generator was a platform I quickly crafted for myself for the sake of efficiency and that only. As I run an Instagram account where I post art. I needed a more efficient way to generate hashtags and sometimes generate titles for my posts. <br/><br/>I first tried using Google Sheets but 30 minutes into putting something together I realised that this would simply not work. My next thoguht was to run to React in hopes it would save me. It did. <br/><br/>Within a day I quickly put together a prototype that was a simple hashtag generator. You have an API with previously used hashtags and you can then from the front end select a bunch of hashtags. Click on the copy button and magic. It worked better than I anticipated and was well worth the time I spent building it. <br/><br/>I however didnt stop there. I got access to a magical piece of human creativity. Open AI Dall E GPT Algorhytm. In simple terms. It's a computer that you give a prompt to that then gives you a response based on what you asked it to do. I realised they have an API I can make use of. So I quickly coded up a simple request response field with a pre defined prompt to create hashtags based on I gave it. Sliders to select how many hashtags i wanted it to generate and other GPT settings. even more magical. The result was exactly what I'd hope it be. Magical Hashtag Generator. ",
+            "prj_name": "Hashtag Generator for Instagram"
+          },
+          {
+            "id": 10,
+            "__component": "desc.desc",
+            "desc": "My porfolio was mainly made because I needed a place to save all my previous projects in a sensible way and to test everything I learned about React and see what I could come up with. It took many head aches and countless hours of bug fixing and learning but the result was a stunning website and a ton of useful knowladge I proceeded to use on my next website. <br/><br/>This project thought me an immense amount of skills. One of the most important things being how an API works and how to use it. It took me weeks to understand how to adapt to difrent API and how they functionned. I was able to work with API's before but I never truly understood how they worked or how to path and map the API to the data visable on the front end. I do now. This alone would have made this project extremely worth the effort it took, but there was a 100 other different small little skills and tools I picked up along the way. \n<br/><br/>\nOne of which was Strapi CMS. As I am mainly a front end designer I am not too familiar with Express and building a good Rest API seemed too much for me at the time. I decided to grab a headless CMS for my project as I wanted a convinient way to update my portfolio without having to rewrite code. Strapi seemed like a no brainer. Open source. Simple. Easy to install and use. Most importantely it provides a simple json response and thats all I wanted. No libaries. Nothing extra. Took me a second to setup and figure out how the componenets worked but now its my go to CMS for simple API needs.\n",
+            "prj_name": "My portfolio"
+          }
+        ],
+        "skills_learned": [
+          {
+            "id": 40,
+            "__component": "tags.tags",
+            "tag": "React.JS"
+          },
+          {
+            "id": 41,
+            "__component": "tags.tags",
+            "tag": "Open AI API"
+          },
+          {
+            "id": 42,
+            "__component": "tags.tags",
+            "tag": "MUI Core"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 3
+    }
   }
-]
+}
