@@ -52,12 +52,14 @@ export default function Home() {
           <About setSea={toggleSearch} />
           <div id="projects"></div>
           <Projects />
-          <div id="jobs"></div>
-          <Jobs />
-          <div className="bg-black cont-padding">
-            <div id="contact"></div>
-            <Contact />
-            <Footer />
+          <div className="bg-black">
+            <div id="jobs"></div>
+            <Jobs />
+            <div className="bg-black cont-padding">
+              <div id="contact"></div>
+              <Contact />
+              <Footer />
+            </div>
           </div>
         </div>
       </div>

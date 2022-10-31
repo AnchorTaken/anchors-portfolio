@@ -1,7 +1,5 @@
+import axios from "axios"; // Import to fetch api
 import { useState, useEffect } from "react";
-// Import to fetch api
-
-import axios from "axios";
 
 function Contact() {
   const [contactActive, setContactActive] = useState(false);
@@ -32,7 +30,7 @@ function Contact() {
         },
         headers: {
           "content-type": "text/plain;  charset=utf-8",
-          Authorization: `Bearer ${token}`,
+          Authorization: `bearer ${token}`,
         },
       })
       .then((response) => {

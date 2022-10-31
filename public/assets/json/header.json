@@ -1,0 +1,77 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "name": "Home!",
+        "number": "01",
+        "url": "#",
+        "animation_type": "fade-down",
+        "delay": "150",
+        "createdAt": "2022-08-26T08:35:02.534Z",
+        "updatedAt": "2022-08-26T08:36:50.824Z",
+        "publishedAt": "2022-08-26T08:36:50.823Z"
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "name": "About",
+        "number": "02",
+        "url": "#about",
+        "animation_type": "fade-down",
+        "delay": "250",
+        "createdAt": "2022-08-26T09:20:16.813Z",
+        "updatedAt": "2022-08-26T09:45:23.491Z",
+        "publishedAt": "2022-08-26T09:20:20.362Z"
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "name": "Projects",
+        "number": "03",
+        "url": "#projects",
+        "animation_type": "fade-down",
+        "delay": "350",
+        "createdAt": "2022-08-26T09:45:49.371Z",
+        "updatedAt": "2022-08-26T09:46:06.841Z",
+        "publishedAt": "2022-08-26T09:46:06.840Z"
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "name": "Jobs",
+        "number": "04",
+        "url": "#jobs",
+        "animation_type": "fade-down",
+        "delay": "450",
+        "createdAt": "2022-08-26T09:46:54.828Z",
+        "updatedAt": "2022-08-26T09:46:55.046Z",
+        "publishedAt": "2022-08-26T09:46:55.045Z"
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "name": "Contact",
+        "number": "05",
+        "url": "#contact",
+        "animation_type": "fade-down",
+        "delay": "450",
+        "createdAt": "2022-08-26T09:47:31.290Z",
+        "updatedAt": "2022-08-26T09:47:31.821Z",
+        "publishedAt": "2022-08-26T09:47:31.820Z"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 5
+    }
+  }
+}

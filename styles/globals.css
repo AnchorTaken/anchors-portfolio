@@ -191,7 +191,7 @@ nav {
   overflow: hidden;
   position: relative;
 }
-.splash::before {
+.splash .lines::before {
   content: "";
   width: 1px;
   height: 65vh;
@@ -200,9 +200,9 @@ nav {
   left: 20px;
   bottom: 20px;
 }
-.splash::after {
+.splash .lines::after {
   content: "";
-  width: 95vw;
+  width: 96%;
   height: 1px;
   position: absolute;
   background: var(--clr--white);
@@ -1107,18 +1107,6 @@ footer h2 {
   font-size: 13px;
 }
 
-.jooooimg .img-holder {
-  position: relative;
-  height: 767px;
-  position: absolute;
-  top: -282px;
-  width: 100%;
-}
-
-.jooooimg .img-holder.last .work {
-  height: 404px;
-  top: -76px;
-}
 .job_sec .jobs-btns button {
   padding: 15px 0px;
   width: 100%;
@@ -1171,3 +1159,23 @@ footer h2 {
   --ggs: 0.7;
   margin-right: 10px;
 }
+.temple {
+  width: 100%;
+  height: 242px;
+  display: block;
+}
+.job_sec .descr span {
+  font-family: var(--ff--normal);
+}
+/* .jooooimg .img-holder {
+  position: relative;
+  height: 767px;
+  position: absolute;
+  top: -282px;
+  width: 100%;
+}
+
+.jooooimg .img-holder.last .work {
+  height: 404px;
+  top: -76px;
+} */
