@@ -25,11 +25,15 @@ function SkillSearch({ active }) {
         setApiResponse(res.data.data.reverse());
         setSkills(res.data.data.reverse());
 
-        setIsLoading(false);
+        setTimeout(() => {
+          setIsLoading(false);
+        }, 2000);
       } catch (error) {
         setApiResponse(redundency.data.reverse());
         setSkills(redundency.data.reverse());
-        setIsLoading(false);
+        setTimeout(() => {
+          setIsLoading(false);
+        }, 2000);
       }
     };
     fetchData();
@@ -43,9 +47,7 @@ function SkillSearch({ active }) {
   return (
     <>
       {isLoading ? (
-        <div className="loader m-auto container">
-          <div className="loading-bar">Loading</div>
-        </div>
+        <></>
       ) : (
         <div className="search-skills">
           <div className="container relative z-10">

@@ -1160,7 +1160,9 @@ footer h2 {
   --ggs: 0.7;
   margin-right: 10px;
 }
-
+.rapper {
+  margin-top: 457px;
+}
 .job_sec .descr span {
   font-family: var(--ff--normal);
 }
