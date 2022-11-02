@@ -58,6 +58,7 @@ function MyApp({ Component, pageProps }) {
           name="twitter:image"
           content="https://res.cloudinary.com/dmoxrn44i/image/upload/v1667245019/portfolio/512_bmmdy6.png"
         />
+        <meta name="robots" content="all" />
       </Head>
       <Script id="google-analytics" strategy="afterInteractive">
         {`

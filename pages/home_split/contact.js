@@ -66,7 +66,7 @@ function Contact() {
           <div className="my-5 w-fit font-normal text-white">
             <p>
               Interested in what I can do ? Shoot me a message. I get
-              notifications when form below is used ;)
+              notifications when form below is used
             </p>
 
             <button
@@ -89,105 +89,109 @@ function Contact() {
         </div>
 
         {/* Contact form */}
-        <div
-          className={
-            contactActive
-              ? "contact-form z-10 relative mb-20 animate__fadeInUpBig animate__animated"
-              : "contact-form animate__fadeOutDownBig animate__animated contact-out"
-          }
-        >
-          <form action="w-7/12 block" onSubmit={onSubmit}>
-            <div className="flex">
-              <div className="w-1/2 pr-2 mb-5">
-                <label
-                  htmlFor="name"
-                  className={formData.name !== "" ? "active" : "nothing"}
-                >
-                  Name
-                </label>
-                <input
-                  type="text"
-                  name="name"
-                  value={name}
-                  onChange={onChange}
-                  placeholder="Name"
-                  className="input"
-                />
+        {contactActive ? (
+          <div
+            className={
+              contactActive
+                ? "contact-form z-10 relative mb-20 animate__fadeInUpBig animate__animated"
+                : "contact-form animate__fadeOutDownBig animate__animated contact-out"
+            }
+          >
+            <form action="w-7/12 block" onSubmit={onSubmit}>
+              <div className="flex">
+                <div className="w-1/2 pr-2 mb-5">
+                  <label
+                    htmlFor="name"
+                    className={formData.name !== "" ? "active" : "nothing"}
+                  >
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    name="name"
+                    value={name}
+                    onChange={onChange}
+                    placeholder="Name"
+                    className="input"
+                  />
+                </div>
+                <div className="w-1/2">
+                  <label
+                    htmlFor="email"
+                    className={formData.email !== "" ? "active" : "nothing"}
+                  >
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    name="email"
+                    value={email}
+                    onChange={onChange}
+                    placeholder="Email"
+                    className="input"
+                  />
+                </div>
               </div>
-              <div className="w-1/2">
-                <label
-                  htmlFor="email"
-                  className={formData.email !== "" ? "active" : "nothing"}
-                >
-                  Email
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  value={email}
-                  onChange={onChange}
-                  placeholder="Email"
-                  className="input"
-                />
+              <div className="flex">
+                <div className="w-1/2 pr-2 mb-5">
+                  <label
+                    htmlFor="phone"
+                    className={formData.phone !== "" ? "active" : "nothing"}
+                  >
+                    Phone
+                  </label>
+                  <input
+                    type="text"
+                    name="phone"
+                    value={phone}
+                    onChange={onChange}
+                    placeholder="Phone"
+                    className="input"
+                  />
+                </div>
+                <div className="w-1/2">
+                  <label
+                    htmlFor="subject"
+                    className={formData.subject !== "" ? "active" : "nothing"}
+                  >
+                    Subject
+                  </label>
+                  <input
+                    type="text"
+                    name="subject"
+                    value={subject}
+                    onChange={onChange}
+                    placeholder="Subject"
+                    className="input"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="flex">
-              <div className="w-1/2 pr-2 mb-5">
-                <label
-                  htmlFor="phone"
-                  className={formData.phone !== "" ? "active" : "nothing"}
-                >
-                  Phone
-                </label>
-                <input
-                  type="text"
-                  name="phone"
-                  value={phone}
-                  onChange={onChange}
-                  placeholder="Phone"
-                  className="input"
-                />
+              <div className="">
+                <div className="w-full">
+                  <label
+                    htmlFor="message"
+                    className={formData.message !== "" ? "active" : "nothing"}
+                  >
+                    Message
+                  </label>
+                  <textarea
+                    type="text"
+                    name="message"
+                    value={message}
+                    onChange={onChange}
+                    placeholder="Message"
+                    className="input"
+                  />
+                </div>
+                <div className="mt-10">
+                  <button className="btn-show-me btn-send">Send </button>
+                </div>
               </div>
-              <div className="w-1/2">
-                <label
-                  htmlFor="subject"
-                  className={formData.subject !== "" ? "active" : "nothing"}
-                >
-                  Subject
-                </label>
-                <input
-                  type="text"
-                  name="subject"
-                  value={subject}
-                  onChange={onChange}
-                  placeholder="Subject"
-                  className="input"
-                />
-              </div>
-            </div>
-            <div className="">
-              <div className="w-full">
-                <label
-                  htmlFor="message"
-                  className={formData.message !== "" ? "active" : "nothing"}
-                >
-                  Message
-                </label>
-                <textarea
-                  type="text"
-                  name="message"
-                  value={message}
-                  onChange={onChange}
-                  placeholder="Message"
-                  className="input"
-                />
-              </div>
-              <div className="mt-10">
-                <button className="btn-show-me btn-send">Send </button>
-              </div>
-            </div>
-          </form>
-        </div>
+            </form>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
