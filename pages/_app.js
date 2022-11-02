@@ -69,14 +69,16 @@ function MyApp({ Component, pageProps }) {
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-LC7LYGX91H"
       ></Script>
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-      window.dataLayer = window.dataLayer || [];
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: ` window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-LC7LYGX91H');
-      `}
-      </Script>
+        gtag('config', 'G-LC7LYGX91H');`,
+        }}
+      ></Script>
       <Layout>
         <Component {...pageProps} />
       </Layout>
