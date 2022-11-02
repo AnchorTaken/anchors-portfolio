@@ -29,9 +29,19 @@ function MyApp({ Component, pageProps }) {
         {/* <link rel="manifest" href="/manifest.json" /> */}
         <meta name="theme-color" content="#000000" />
         {/* Icons */}
-        <link rel="icon" href="/logo.png" />{" "}
-        <link rel="mask-icon" href="/logo.png" color="#000000" />
-        <link rel="apple-touch-icon" href="/logo.png" />
+        <link
+          rel="icon"
+          href="https://res.cloudinary.com/dmoxrn44i/image/upload/v1667405458/portfolio/logo_p3tcoq.png"
+        />{" "}
+        <link
+          rel="mask-icon"
+          href="https://res.cloudinary.com/dmoxrn44i/image/upload/v1667405458/portfolio/logo_p3tcoq.png"
+          color="#000000"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="https://res.cloudinary.com/dmoxrn44i/image/upload/v1667405458/portfolio/logo_p3tcoq.png"
+        />
         {/* Embeds */}
         <meta property="og:title" content="Anchor - Portfolio" />
         <meta
@@ -66,17 +76,18 @@ function MyApp({ Component, pageProps }) {
         <meta name="robots" content="none" />
       </Head>
       <Script
+        strategy="lazyOnload"
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-LC7LYGX91H"
       ></Script>
       <Script
         id="google-analytics"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
         dangerouslySetInnerHTML={{
           __html: ` window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-LC7LYGX91H');`,
+        gtag('config', '${process.env.GOOGLETAG}');`,
         }}
       ></Script>
       <Layout>
