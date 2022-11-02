@@ -22,6 +22,12 @@ function MyApp({ Component, pageProps }) {
     <>
       {" "}
       <Head>
+        <meta charSet="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="lang" content="en" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charSet="utf-8" />
         <title>Anchor - Portfolio</title>
@@ -73,7 +79,7 @@ function MyApp({ Component, pageProps }) {
           name="twitter:image"
           content="https://res.cloudinary.com/dmoxrn44i/image/upload/v1667245019/portfolio/512_bmmdy6.png"
         />
-        <meta name="robots" content="none" />
+        <meta name="robots" content="all" />
       </Head>
       <Script
         strategy="lazyOnload"
