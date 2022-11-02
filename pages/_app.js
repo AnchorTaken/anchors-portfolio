@@ -93,7 +93,7 @@ function MyApp({ Component, pageProps }) {
           __html: ` window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', '${process.env.GOOGLETAG}');`,
+        gtag('config', 'G-LC7LYGX91H');`,
         }}
       ></Script>
       <Layout>
