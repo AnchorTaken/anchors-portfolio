@@ -144,132 +144,135 @@ function Jobs() {
                                 : "single flex relative hidden"
                             }
                           >
-                            {" "}
-                            <div className="right-side desc">
-                              <div className="popout job_desc_h">
-                                <div className="relative">
-                                  <h2
-                                    className={
-                                      jobsActive == job.attributes.num
-                                        ? "flex animate__fadeInUp animate__animated font-mc"
-                                        : "flex animate__fadeOut animate__animated font-mc"
-                                    }
-                                  >
-                                    {job.attributes.name}{" "}
-                                    <span className="text-accent">
-                                      <i className="ml-5">@</i>{" "}
-                                      {job.attributes.comp_name}
-                                    </span>
-                                  </h2>
-                                  <small>Projects</small>
-                                  {/* Nest array map desc array form attributes */}
+                            {jobsActive === index ? (
+                              <div className="right-side desc">
+                                <div className="popout job_desc_h">
+                                  <div className="relative">
+                                    <h2
+                                      className={
+                                        jobsActive == job.attributes.num
+                                          ? "flex animate__fadeInUp animate__animated font-mc"
+                                          : "flex animate__fadeOut animate__animated font-mc"
+                                      }
+                                    >
+                                      {job.attributes.name}{" "}
+                                      <span className="text-accent">
+                                        <i className="ml-5">@</i>{" "}
+                                        {job.attributes.comp_name}
+                                      </span>
+                                    </h2>
+                                    <small>Projects</small>
+                                    {/* Nest array map desc array form attributes */}
 
-                                  {job.attributes.desc
-                                    .map((desc, index) => {
-                                      return (
-                                        <div
-                                          key={index}
-                                          className={
-                                            jobsActive == job.attributes.num
-                                              ? "animate__fadeInUp animate__animated mobile-margin"
-                                              : "animate__fadeOutUp animate__animated mobile-margin"
-                                          }
-                                        >
-                                          <span className="prj--name">
-                                            {desc.prj_name}
-                                          </span>
-                                          <div
-                                            className="flex someinner"
-                                            data-animate-delay={index * 100}
-                                          >
-                                            <p
-                                              className={
-                                                jobsActive == currentActive
-                                                  ? "descr animate__fadeInUp animate__animated "
-                                                  : "descr animate__fadeOut animate__animated"
-                                              }
-                                              data-animate-delay={index * 100}
-                                            >
-                                              {/* slice the responce if number of characters is greater than 250 from desc.desc */}
-                                              <span
-                                                className={
-                                                  textShown == index
-                                                    ? "animate__fadeInUp animate__animated "
-                                                    : " animate__fadeInDown animate__animated job_desc_el"
-                                                }
-                                                dangerouslySetInnerHTML={{
-                                                  __html:
-                                                    textShown === index
-                                                      ? desc.desc
-                                                      : desc.desc.slice(
-                                                          0,
-                                                          250
-                                                        ) + "...",
-                                                }}
-                                              />
-                                            </p>
-                                            <button
-                                              className={
-                                                textShown == index
-                                                  ? "animate__fadeOut animate__animated show-more"
-                                                  : "animate__fadeIn animate__animated show-more"
-                                              }
-                                              onClick={() =>
-                                                setTextShown(index)
-                                              }
-                                            >
-                                              {" "}
-                                              Show More
-                                            </button>
-                                          </div>{" "}
-                                        </div>
-                                      );
-                                    })
-                                    .reverse()}
-                                </div>
-                              </div>
-                              <div className="skills">
-                                {" "}
-                                <span
-                                  className={
-                                    jobsActive == job.attributes.num
-                                      ? "animate__fadeInUp animate__animated"
-                                      : "animate__fadeOutUp animate__animated"
-                                  }
-                                >
-                                  Skills gained at a glance
-                                </span>
-                                <div className="flex relative skills-map">
-                                  {job.attributes.skills_learned
-                                    .map((skill, index) => {
-                                      return (
-                                        <div
-                                          key={index}
-                                          className={
-                                            jobsActive == job.attributes.num
-                                              ? "animate__fadeInUp animate__animated"
-                                              : "animate__fadeOutUp animate__animated"
-                                          }
-                                          data-animate-delay={index * 200}
-                                        >
+                                    {job.attributes.desc
+                                      .map((desc, index) => {
+                                        return (
                                           <div
                                             key={index}
                                             className={
                                               jobsActive == job.attributes.num
-                                                ? "tag animate__fadeInUp animate__animated"
-                                                : "tag animate__fadeOutRight animate__animated"
+                                                ? "animate__fadeInUp animate__animated mobile-margin"
+                                                : "animate__fadeOutUp animate__animated mobile-margin"
                                             }
-                                            data-animate-delay={index * 100}
                                           >
-                                            {skill.tag}
+                                            <span className="prj--name">
+                                              {desc.prj_name}
+                                            </span>
+                                            <div
+                                              className="flex someinner"
+                                              data-animate-delay={index * 100}
+                                            >
+                                              <p
+                                                className={
+                                                  jobsActive == currentActive
+                                                    ? "descr animate__fadeInUp animate__animated "
+                                                    : "descr animate__fadeOut animate__animated"
+                                                }
+                                                data-animate-delay={index * 100}
+                                              >
+                                                {/* slice the responce if number of characters is greater than 250 from desc.desc */}
+                                                <span
+                                                  className={
+                                                    textShown == index
+                                                      ? "animate__fadeInUp animate__animated "
+                                                      : " animate__fadeInDown animate__animated job_desc_el"
+                                                  }
+                                                  dangerouslySetInnerHTML={{
+                                                    __html:
+                                                      textShown === index
+                                                        ? desc.desc
+                                                        : desc.desc.slice(
+                                                            0,
+                                                            250
+                                                          ) + "...",
+                                                  }}
+                                                />
+                                              </p>
+                                              <button
+                                                className={
+                                                  textShown == index
+                                                    ? "animate__fadeOut animate__animated show-more"
+                                                    : "animate__fadeIn animate__animated show-more"
+                                                }
+                                                onClick={() =>
+                                                  setTextShown(index)
+                                                }
+                                              >
+                                                {" "}
+                                                Show More
+                                              </button>
+                                            </div>{" "}
                                           </div>
-                                        </div>
-                                      );
-                                    })
-                                    .reverse()}
+                                        );
+                                      })
+                                      .reverse()}
+                                  </div>
+                                </div>
+                                <div className="skills">
+                                  {" "}
+                                  <span
+                                    className={
+                                      jobsActive == job.attributes.num
+                                        ? "animate__fadeInUp animate__animated"
+                                        : "animate__fadeOutUp animate__animated"
+                                    }
+                                  >
+                                    Skills gained at a glance
+                                  </span>
+                                  <div className="flex relative skills-map">
+                                    {job.attributes.skills_learned
+                                      .map((skill, index) => {
+                                        return (
+                                          <div
+                                            key={index}
+                                            className={
+                                              jobsActive == job.attributes.num
+                                                ? "animate__fadeInUp animate__animated"
+                                                : "animate__fadeOutUp animate__animated"
+                                            }
+                                            data-animate-delay={index * 200}
+                                          >
+                                            <div
+                                              key={index}
+                                              className={
+                                                jobsActive == job.attributes.num
+                                                  ? "tag animate__fadeInUp animate__animated"
+                                                  : "tag animate__fadeOutRight animate__animated"
+                                              }
+                                              data-animate-delay={index * 100}
+                                            >
+                                              {skill.tag}
+                                            </div>
+                                          </div>
+                                        );
+                                      })
+                                      .reverse()}
+                                  </div>
                                 </div>
                               </div>
-                            </div>
+                            ) : (
+                              ""
+                            )}{" "}
                           </div>
                         );
                       })}
