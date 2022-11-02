@@ -21,7 +21,7 @@ function Contact() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get(API);
+        const res = await axios.get("https://anchooor.wtf/api/jobs");
         setTimeout(() => {
           setIsLoading(false);
         }, 2000);
