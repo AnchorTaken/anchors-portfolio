@@ -63,16 +63,19 @@ function MyApp({ Component, pageProps }) {
           name="twitter:image"
           content="https://res.cloudinary.com/dmoxrn44i/image/upload/v1667245019/portfolio/512_bmmdy6.png"
         />
-        <meta name="robots" content="all" />
+        <meta name="robots" content="none" />
       </Head>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-LC7LYGX91H"
+      ></Script>
       <Script id="google-analytics" strategy="afterInteractive">
         {`
-         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-         })(window,document,'script','dataLayer','GTM-TFWSKL3');
-        `}
+      window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-LC7LYGX91H');
+      `}
       </Script>
       <Layout>
         <Component {...pageProps} />
