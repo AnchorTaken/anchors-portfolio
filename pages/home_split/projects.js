@@ -28,10 +28,14 @@ function Projects() {
         );
 
         setTabs(res.data.data);
-        setIsLoading(false);
+        setTimeout(() => {
+          setIsLoading(false);
+        }, 2000);
       } catch (error) {
         setTabs(redundency.data);
-        setIsLoading(false);
+        setTimeout(() => {
+          setIsLoading(false);
+        }, 2000);
       }
     };
 
@@ -41,12 +45,8 @@ function Projects() {
   return (
     <>
       {isLoading ? (
-        <div className="loader m-auto container">
-          <div className="loading-bar">Loading</div>
-        </div>
-      ) : (
         <div
-          className="my-projects-at-glance mt-10 z-30 relative"
+          className="my-projects-at-glance mt-10 z-30 relative animate__fadeIn animate__animated loading"
           data-aos="fade-in"
           data-aos-delay="250"
         >
@@ -54,17 +54,109 @@ function Projects() {
             <div className="w-full">
               <div className="flex mb-5">
                 <div
-                  className="number mr-5 title md text-accent"
+                  className="number mr-5 title md text-accent placeholder"
                   data-aos="fade-down"
                   data-aos-delay="350"
                 >
                   02.
                 </div>
                 <div
-                  className="title md text-primary"
+                  className="title md text-primary placeholder"
                   data-aos="fade-down"
                   data-aos-delay="550"
                 >
+                  Some Things I{"’"}ve Built
+                </div>
+              </div>
+
+              {/* Togglable tabs element */}
+              <div className="tabs" data-aos="fade-in" data-aos-delay="950">
+                <ul className="flex relative">
+                  {/* Map buttons to tabs json   */}
+
+                  <li
+                    // if tabactive is matches the id, add class active
+
+                    className="active"
+                  >
+                    <button className="flex">
+                      <div className="web-icon">
+                        <i className="gg-shape-hexagon"></i>
+                      </div>{" "}
+                      <span>name</span>{" "}
+                      <div className="close-icon">
+                        <i className="gg-close"></i>
+                      </div>
+                    </button>
+                  </li>
+                  <li
+                    // if tabactive is matches the id, add class active
+
+                    className=""
+                  >
+                    <button className="flex">
+                      <div className="web-icon">
+                        <i className="gg-shape-hexagon"></i>
+                      </div>{" "}
+                      <span>name</span>{" "}
+                      <div className="close-icon">
+                        <i className="gg-close"></i>
+                      </div>
+                    </button>
+                  </li>
+                  <div className="dots">
+                    <div className="dot"></div>
+                    <div className="dot"></div>
+                    <div className="dot"></div>
+                  </div>
+                </ul>
+                {/* Cosmetic URL bar for the tabs */}
+                <div className="url-bar flex">
+                  <div className="buttons flex my-auto ml-5">
+                    {/* Button to go back to the previous state */}
+
+                    <div className="back mr-3">
+                      <i className="gg-chevron-double-left-o"></i>
+                    </div>
+                    <div className="forward">
+                      <i className="gg-chevron-double-right-o"></i>
+                    </div>
+                  </div>
+                  {/* Seperate a singular tab based on tabsActive. WELL DONE COPILOT <3 You tried your best*/}
+                  <div className="url-absolute">
+                    <span className="url-address flex">
+                      <span className="url-link flex"> </span>
+                    </span>
+                  </div>
+                </div>
+                <div className="tab">
+                  {/* Main body of the tabs*/}
+
+                  <div className="single absolute flex w-full ">
+                    {" "}
+                    <div className="left-side image relative w-6/12 placeholder ">
+                      {/* check if tabsActive is the same as currentTab and interested is true */}
+                    </div>
+                    <div className="right-side desc w-6/12 flex bg-white placeholder br-0"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : (
+        <div
+          className="my-projects-at-glance mt-10 z-30 relative animate__fadeIn animate__animated"
+          data-aos="fade-in"
+          data-aos-delay="250"
+        >
+          <div className="container m-auto">
+            <div className="w-full">
+              <div className="flex mb-5">
+                <div className="number mr-5 title md text-accent animate__fadeIn animate__animated">
+                  02.
+                </div>
+                <div className="title md text-primary animate__fadeIn animate__animated">
                   Some Things I{"’"}ve Built
                 </div>
               </div>

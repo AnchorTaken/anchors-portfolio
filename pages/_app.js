@@ -2,6 +2,7 @@
 import Head from "next/head";
 
 // Styles
+import "../public/assets/css/isloading.css";
 import "../styles/globals.css";
 import "../styles/standarts.css";
 import "../public/assets/css/animate-delay.css";
@@ -33,6 +34,10 @@ function MyApp({ Component, pageProps }) {
         <link rel="apple-touch-icon" href="/logo.png" />
         {/* Embeds */}
         <meta property="og:title" content="Anchor - Portfolio" />
+        <meta
+          name="description"
+          content="Anchor’s Portfolio. I am an aspiring front end designer. I admire beautiful things and aspire to build websites and experiences to wow people without sacrificing user experience."
+        ></meta>
         <meta
           property="og:description"
           content="Anchor’s Portfolio. I am an aspiring front end designer. I admire beautiful things and aspire to build websites and experiences to wow people without sacrificing user experience. "
