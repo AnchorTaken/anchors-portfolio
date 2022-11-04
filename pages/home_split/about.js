@@ -61,33 +61,63 @@ function About({ searchBtn, setSea }) {
                   <div className="line"></div>
                 </div>
                 <p
-                  className="mb-5 px-10 py-9 relative placeholder"
+                  className="mb-5 pr-10 py-9 relative placeholder"
                   data-aos="fade-down"
                   data-aos-delay="250"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto
-                  officia ullam molestias!
+                  I am a web designer with 5 years of experience in building web
+                  experiences.
                 </p>
                 <p
-                  className="mb-5 px-10 py-9 relative placeholder"
+                  className="mb-5 pr-10 py-9 relative placeholder"
                   data-aos="fade-down"
                   data-aos-delay="350"
                 >
-                  Lorem ipsum dolor <span>sit</span> amet consectetur
-                  adipisicing elit. Provident facere eveniet{" "}
-                  <span>suscipit fugit</span> , soluta magni assumenda
-                  distinctio illum deleniti similique in eos, cupiditate dolore{" "}
-                  <span>perspiciati quibusdams</span> blanditiis quaerat atque
-                  numquam.
+                  My main focus is on designing the most stunning experiences
+                  without sacrificing UI and UX to ensure the best possible
+                  outcome. Sometimes it might be mind blowing visuals and
+                  sometimes it may be a simple clean minimalistic UI to ensure
+                  ease of use.
                 </p>
                 <p
-                  className="mb-5 px-10 py-9 relative placeholder"
+                  className="mb-5 pr-10 py-9 relative placeholder"
                   data-aos="fade-down"
                   data-aos-delay="450"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Corporis, quia!
+                  I fell in love with web development in 2017 and ever since I
+                  was able to grow into a person who has no idea of what’s
+                  possible only the idea of how long it would take. I always
+                  aspire to grow with every website I build. Learn and improve
+                  from my previous work be it my code, look of the website or
+                  the performance of the website. What I lack in back-end I make
+                  up in exceptional front-end.
+                </p>{" "}
+                <p
+                  className="mb-5 pr-10 py-9 relative placeholder"
+                  data-aos="fade-down"
+                  data-aos-delay="450"
+                >
+                  I always had an insatiable love for pretty things and web
+                  design is my way of expressing myself and my creativity. For
+                  me websites I build are closer to art than to software.
+                </p>{" "}
+                <p
+                  className="mb-5 pr-10 py-9 relative placeholder"
+                  data-aos="fade-down"
+                  data-aos-delay="450"
+                >
+                  Overall, I am an easy-going person and I find it easy to get
+                  along with people. I aspire to work with people that do things
+                  better than me.{" "}
+                  <span>To steal their knowledge and help me grow</span>
+                </p>
+                <p
+                  className="mb-5 pr-10 py-9 relative placeholder"
+                  data-aos="fade-down"
+                  data-aos-delay="450"
+                >
+                  I truly believe growing as a person is the most important
+                  thing a human can do.
                 </p>
                 <div className="text-above"></div>
                 <div className="tables">
@@ -163,38 +193,64 @@ function About({ searchBtn, setSea }) {
                   data-aos="fade-down"
                   data-aos-delay="150"
                 >
-                  About Me
+                  Hey I’m Evalds aka Anchor
                 </div>
 
                 <div className="line"></div>
               </div>
               <p
-                className="mb-5 px-10 py-9 relative"
-                data-aos="fade-down"
-                data-aos-delay="250"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deleniti quo nesciunt a quisquam nobis nemo! Quidem iusto
-                officia ullam molestias!
-              </p>
-              <p
-                className="mb-5 px-10 py-9 relative"
+                className="mb-5 pr-10 py-9 relative"
                 data-aos="fade-down"
                 data-aos-delay="350"
               >
-                Lorem ipsum dolor <span>sit</span> amet consectetur adipisicing
-                elit. Provident facere eveniet <span>suscipit fugit</span> ,
-                soluta magni assumenda distinctio illum deleniti similique in
-                eos, cupiditate dolore <span>perspiciati quibusdams</span>{" "}
-                blanditiis quaerat atque numquam.
+                I am a web designer with 5 years of experience in building web
+                experiences. <br />
+                <br />
+                My main focus is on designing the most stunning experiences
+                without sacrificing UI and UX to ensure the best possible
+                outcome. Sometimes it might be mind blowing visuals and
+                sometimes it may be a simple clean minimalistic UI to ensure
+                ease of use
               </p>
               <p
-                className="mb-5 px-10 py-9 relative"
+                className="mb-5 pr-10 py-9 relative"
                 data-aos="fade-down"
                 data-aos-delay="450"
               >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Corporis, quia!
+                I fell in love with web development in 2017 and ever since I was
+                able to grow into a person who has no idea of what’s possible
+                only the idea of how long it would take. I always aspire to grow
+                with every website I build. Learn and improve from my previous
+                work be it my code, look of the website or the performance of
+                the website. What I lack in back-end I make up in exceptional
+                front-end
+              </p>{" "}
+              <p
+                className="mb-5 pr-10 py-9 relative"
+                data-aos="fade-down"
+                data-aos-delay="450"
+              >
+                I always had an insatiable love for pretty things and web design
+                is my way of expressing myself and my creativity. For me
+                websites I build are closer to art than to software
+              </p>{" "}
+              <p
+                className="mb-5 pr-10 py-9 relative"
+                data-aos="fade-down"
+                data-aos-delay="450"
+              >
+                Overall, I am an easy-going person and I find it easy to get
+                along with people. I aspire to work with people that do things
+                better than me.{" "}
+                <span>To steal their knowledge and help me grow</span>
+              </p>
+              <p
+                className="mb-5 pr-10 py-9 relative"
+                data-aos="fade-down"
+                data-aos-delay="450"
+              >
+                I truly believe growing as a person is the most important thing
+                a human can do
               </p>
               <div className="text-above"></div>
               <div className="tables">
@@ -232,7 +288,7 @@ function About({ searchBtn, setSea }) {
               {" "}
               <div className="right-side w-5/12 relative pl-32">
                 {" "}
-                <Parallax speed={-20}>
+                <Parallax speed={-30}>
                   <div className="sq" data-aos="fade-left" data-aos-delay="350">
                     <Image
                       src={
@@ -245,7 +301,7 @@ function About({ searchBtn, setSea }) {
                     />
                   </div>
                 </Parallax>
-                <Parallax speed={20} translateX={"200px, 200px"}>
+                <Parallax speed={-30} translateY={[0, 40]}>
                   <div
                     className="pop-in-hover"
                     data-aos="fade-in"

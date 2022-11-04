@@ -46,7 +46,7 @@ function Projects() {
     <>
       {isLoading ? (
         <div
-          className="my-projects-at-glance mt-10 z-30 relative animate__fadeIn animate__animated loading"
+          className="my-projects-at-glance mt-32 z-30 relative animate__fadeIn animate__animated loading"
           data-aos="fade-in"
           data-aos-delay="250"
         >
@@ -146,7 +146,7 @@ function Projects() {
         </div>
       ) : (
         <div
-          className="my-projects-at-glance mt-10 z-30 relative animate__fadeIn animate__animated"
+          className="my-projects-at-glance mt-32 z-30 relative animate__fadeIn animate__animated"
           data-aos="fade-in"
           data-aos-delay="250"
         >
