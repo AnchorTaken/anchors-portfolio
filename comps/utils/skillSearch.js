@@ -25,15 +25,11 @@ function SkillSearch({ active }) {
         setApiResponse(res.data.data.reverse());
         setSkills(res.data.data.reverse());
 
-        setTimeout(() => {
-          setIsLoading(false);
-        }, 2000);
+        setIsLoading(false);
       } catch (error) {
         setApiResponse(redundency.data.reverse());
         setSkills(redundency.data.reverse());
-        setTimeout(() => {
-          setIsLoading(false);
-        }, 2000);
+        setIsLoading(false);
       }
     };
     fetchData();

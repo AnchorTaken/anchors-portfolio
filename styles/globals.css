@@ -311,24 +311,11 @@ nav {
 .home .about p span {
   color: var(--clr--accent);
   position: relative;
-  cursor: pointer;
+  font-style: italic;
+  font-size: 10px;
+  display: block;
 }
-.home .about p span:after {
-  content: "";
-  width: 0;
-  height: 1px;
-  background: var(--clr--accent);
-  position: absolute;
-  bottom: 0;
-  left: auto;
-  right: 0;
-  transition: ease all 0.2s;
-}
-.home .about p span:hover:after {
-  width: 100%;
-  left: 0;
-  right: auto;
-}
+
 .home .about .tables ul {
   columns: 3;
   -webkit-columns: 3;

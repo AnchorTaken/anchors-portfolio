@@ -33,7 +33,7 @@ export default function Header() {
     <>
       {/* Map the array nav from the api */}
       {isLoading ? (
-        "loading"
+        <></>
       ) : (
         <>
           <div className="desktop">

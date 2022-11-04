@@ -57,12 +57,12 @@ function Jobs() {
             <div className="bg-bc">
               <div className="job_sec container m-auto">
                 <div className="flex mb-16 center-this">
-                  <h2
+                  <div
                     className="number mr-5 title sm text-accent font-mc placeholder"
                     data-aos="fade-down"
                   >
                     03.
-                  </h2>
+                  </div>
                   <h2
                     className="title sm font-mc text-secondary main-title placeholder"
                     data-aos="fade-down"
@@ -74,16 +74,6 @@ function Jobs() {
 
                 <div className="flex gap-16 under-job">
                   <div className="ui_nav left-side">
-                    {/* <button
-         className=""
-         onClick={() => {
-           if (jobsActive > 0) {
-             setJobsActive(jobsActive - 1);
-           }
-         }}
-       >
-         <i className="gg-chevron-double-left"></i>
-       </button> */}
                     <div className="mobile-menu-op">
                       <ul className="jobs-btns relative">
                         {/* Map buttons to tabs json */}
@@ -113,16 +103,6 @@ function Jobs() {
                           </button>
                         </li>
                       </ul>
-                      {/* <button
-       className="nav-bt right mobile"
-       onClick={() => {
-         if (jobsActive < listlength - 1) {
-           setJobsActive(jobsActive + 1);
-         }
-       }}
-     >
-       <i className="gg-chevron-double-right"></i>
-     </button> */}
                     </div>
                   </div>
                   <div className="main-box">
@@ -130,61 +110,50 @@ function Jobs() {
                       <div className="right-side desc">
                         <div className="popout job_desc_h">
                           <div className="relative">
-                            <h2 className="flex animate__fadeInUp animate__animated font-mc placeholder">
-                              name{" "}
+                            <div className="flex animate__fadeInUp animate__animated font-mc placeholder">
+                              Personal Projects{" "}
                               <span className="text-accent">
-                                <i className="ml-5">@</i> name
+                                <i className="ml-5">@</i> Me
                               </span>
-                            </h2>
+                            </div>
                             <small>Projects</small>
                             {/* Nest array map desc array form attributes */}
                             <div className="animate__fadeInUp animate__animated mobile-margin">
                               <span className="prj--name placeholder">
-                                name
+                                Hashtag Generator for Instagram
                               </span>
                               <div className="flex someinner placeholder">
                                 <p className="descr animate__fadeInUp animate__animated">
                                   {/* slice the responce if number of characters is greater than 250 from desc.desc */}
                                   <span className="animate__fadeInUp animate__animated ">
-                                    {" "}
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Optio accusantium
-                                    perspiciatis adipisci nulla unde non
-                                    voluptas, quo ipsa reprehenderit numquam?
+                                    Hashtag Generator was a platform I quickly
+                                    crafted for myself for the sake of
+                                    efficiency and that only. As I run an
+                                    Instagram account where I post art. I needed
+                                    a more efficient way to generate hashtags
+                                    and sometimes generate titles for my posts.{" "}
                                   </span>
                                 </p>
                               </div>{" "}
                             </div>
                             <div className="animate__fadeInUp animate__animated mobile-margin">
                               <span className="prj--name placeholder">
-                                name
+                                My portfolio
                               </span>
                               <div className="flex someinner placeholder">
                                 <p className="descr animate__fadeInUp animate__animated">
                                   {/* slice the responce if number of characters is greater than 250 from desc.desc */}
                                   <span className="animate__fadeInUp animate__animated ">
-                                    {" "}
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Optio accusantium
-                                    perspiciatis adipisci nulla unde non
-                                    voluptas, quo ipsa reprehenderit numquam?
-                                  </span>
-                                </p>
-                              </div>{" "}
-                            </div>
-                            <div className="animate__fadeInUp animate__animated mobile-margin">
-                              <span className="prj--name placeholder">
-                                name
-                              </span>
-                              <div className="flex someinner placeholder">
-                                <p className="descr animate__fadeInUp animate__animated">
-                                  {/* slice the responce if number of characters is greater than 250 from desc.desc */}
-                                  <span className="animate__fadeInUp animate__animated ">
-                                    {" "}
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Optio accusantium
-                                    perspiciatis adipisci nulla unde non
-                                    voluptas, quo ipsa reprehenderit numquam?
+                                    My porfolio was mainly made because I needed
+                                    a place to save all my previous projects in
+                                    a sensible way and to test everything I
+                                    learned about React and see what I could
+                                    come up with. It took many head aches and
+                                    countless hours of bug fixing and learning
+                                    but the result was a stunning website and a
+                                    ton of useful knowladge I proceeded to use
+                                    on my next website. <br />
+                                    <br />
                                   </span>
                                 </p>
                               </div>{" "}
@@ -198,7 +167,7 @@ function Jobs() {
                           </span>
                           <div className="animate__fadeInUp animate__animated  placeholder">
                             <div className="tag animate__fadeInUp animate__animated">
-                              name
+                              React, Next.js, Tailwind, AOS,
                             </div>
                           </div>
                         </div>
@@ -250,16 +219,6 @@ function Jobs() {
 
                   <div className="flex gap-16 under-job">
                     <div className="ui_nav left-side">
-                      {/* <button
-                className=""
-                onClick={() => {
-                  if (jobsActive > 0) {
-                    setJobsActive(jobsActive - 1);
-                  }
-                }}
-              >
-                <i className="gg-chevron-double-left"></i>
-              </button> */}
                       <div className="mobile-menu-op">
                         <ul className="jobs-btns relative">
                           {/* Map buttons to tabs json */}
@@ -297,16 +256,6 @@ function Jobs() {
                             );
                           })}
                         </ul>
-                        {/* <button
-              className="nav-bt right mobile"
-              onClick={() => {
-                if (jobsActive < listlength - 1) {
-                  setJobsActive(jobsActive + 1);
-                }
-              }}
-            >
-              <i className="gg-chevron-double-right"></i>
-            </button> */}
                       </div>
                     </div>
                     <div className="main-box">
