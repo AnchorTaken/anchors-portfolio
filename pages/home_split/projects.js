@@ -83,7 +83,7 @@ function Projects() {
                       <div className="web-icon">
                         <i className="gg-shape-hexagon"></i>
                       </div>{" "}
-                      <span>name</span>{" "}
+                      <span>Vizintin Yachts</span>{" "}
                       <div className="close-icon">
                         <i className="gg-close"></i>
                       </div>
@@ -98,7 +98,7 @@ function Projects() {
                       <div className="web-icon">
                         <i className="gg-shape-hexagon"></i>
                       </div>{" "}
-                      <span>name</span>{" "}
+                      <span>ITRSQ</span>{" "}
                       <div className="close-icon">
                         <i className="gg-close"></i>
                       </div>

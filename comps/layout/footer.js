@@ -14,7 +14,7 @@ function Footer() {
         data-aos-delay="400"
         data-aos-offset="000"
       >
-        <h2>find me</h2>
+        <div>find me</div>
         <div className="flex  mx-auto w-fit">
           {/* Link to github */}
           <li data-aos="fade-up" data-aos-delay="500" data-aos-offset="000">

@@ -50,34 +50,34 @@ function About({ searchBtn, setSea }) {
                   >
                     02.
                   </div>
-                  <div
+                  <h2
                     className="title md text-primary placeholder"
                     data-aos="fade-down"
                     data-aos-delay="150"
                   >
                     About Me
-                  </div>
+                  </h2>
 
                   <div className="line"></div>
                 </div>
                 <p
                   className="mb-5 pr-10 py-9 relative placeholder"
                   data-aos="fade-down"
-                  data-aos-delay="250"
-                >
-                  I am a web designer with 5 years of experience in building web
-                  experiences.
-                </p>
-                <p
-                  className="mb-5 pr-10 py-9 relative placeholder"
-                  data-aos="fade-down"
                   data-aos-delay="350"
                 >
+                  {" "}
+                  I am a web designer with 5 years of experience in building web
+                  experiences. <br />
+                  <br />
                   My main focus is on designing the most stunning experiences
                   without sacrificing UI and UX to ensure the best possible
                   outcome. Sometimes it might be mind blowing visuals and
                   sometimes it may be a simple clean minimalistic UI to ensure
-                  ease of use.
+                  ease of use My main focus is on designing the most stunning
+                  experiences without sacrificing UI and UX to ensure the best
+                  possible outcome. Sometimes it might be mind blowing visuals
+                  and sometimes it may be a simple clean minimalistic UI to
+                  ensure ease of use.
                 </p>
                 <p
                   className="mb-5 pr-10 py-9 relative placeholder"
