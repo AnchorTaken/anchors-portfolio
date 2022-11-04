@@ -55,17 +55,19 @@ export default function Header() {
                     </div>
                   );
                 })}
-                <div
-                  className="font-title font-nav button-home-head flex"
-                  data-aos="fade-down"
-                  data-aos-delay="550"
-                >
-                  {" "}
-                  Resume{" "}
-                  <div className="cont-for-ic">
-                    <i className="gg-software-download"></i>
+                <a href="/assets/CV_Ev_2022.pdf" download>
+                  <div
+                    className="font-title font-nav button-home-head flex"
+                    data-aos="fade-down"
+                    data-aos-delay="550"
+                  >
+                    {" "}
+                    Resume{" "}
+                    <div className="cont-for-ic">
+                      <i className="gg-software-download"></i>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </nav>
           </div>{" "}
