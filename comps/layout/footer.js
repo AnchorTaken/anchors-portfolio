@@ -4,7 +4,7 @@ import Image from "next/image";
 // Comps
 import Copy from "/comps/utils/copy.js";
 
-function Footer() {
+function Footer({ copyOpen, copyClose }) {
   return (
     <footer className="flex">
       {/* Center LOGO */}
@@ -19,6 +19,8 @@ function Footer() {
           {/* Link to github */}
           <li data-aos="fade-up" data-aos-delay="500" data-aos-offset="000">
             <Copy
+              copyOpen={copyOpen}
+              copyClose={copyClose}
               copyValue={"Anchor#7851"}
               imgPresent={
                 "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801166/portfolio/socials/discord_qiagch.png"
@@ -90,6 +92,8 @@ function Footer() {
           </a>
           <li data-aos="fade-up" data-aos-delay="900" data-aos-offset="000">
             <Copy
+              copyOpen={copyOpen}
+              copyClose={copyClose}
               copyValue={"maksvitisevalds@gmail.com"}
               imgPresent={
                 "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801166/portfolio/socials/email_tldxje.png"

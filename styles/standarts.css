@@ -67,11 +67,16 @@
   color: var(--clr--white);
   position: fixed;
   right: 0;
-  bottom: 3%;
+  left: 0;
+  margin: auto;
+  bottom: 0;
+  width: 10%;
   padding: 7px 50px;
   border-radius: 1px 0px 0px 1px;
   background: var(--clr--accent);
   letter-spacing: 3px;
+  z-index: 9099999;
+  animation: slide 2s ease-in-out;
 }
 .hidden {
   display: none;
@@ -85,4 +90,20 @@
   opacity: 1;
   z-index: 2;
   position: relative;
+}
+
+/* create animation where object slides up and down */
+@keyframes slide {
+  0% {
+    transform: translateY(50px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  90% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(70px);
+  }
 }

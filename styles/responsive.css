@@ -5,6 +5,12 @@
   display: none !important;
 }
 /* Tablet */
+@media (max-width: 1530px) {
+  .home .about .sq {
+    height: 1022px;
+    width: 1021px;
+  }
+}
 
 /* Mobile */
 @media (max-width: 1065px) {

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Header from "../../comps/layout/header.js";
 import Copy from "../../comps/utils/copy.js";
 
-function Splash() {
+function Splash({ copyOpen, copyClose }) {
   return (
     <>
       {" "}
@@ -34,6 +34,7 @@ function Splash() {
           </div>
           {/* Splash Menu ONLY */}
           <Header />
+
           <div
             className="email absolute"
             data-clipboard-target="#foo"
@@ -42,6 +43,8 @@ function Splash() {
           >
             {/* Copy to clipboard comp */}
             <Copy
+              copyOpen={copyOpen}
+              copyClose={copyClose}
               text={"maksvitisevalds@gmail.com"}
               copyValue={"maksvitisevalds@gmail.com"}
             />

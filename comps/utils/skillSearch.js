@@ -76,7 +76,14 @@ function SkillSearch({ active }) {
                         {textTitle}
                       </h2>
                     </div>
-                    <p className="font-default texto-simple">{textShown}</p>
+                    <p className="font-default texto-simple animate__fadeIn animate__animated">
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: textShown,
+                        }}
+                      />
+                      {}
+                    </p>
                   </div>
                   <div className="search-bar">
                     {/* make the input filter based on cat_name */}
@@ -239,7 +246,10 @@ function SkillSearch({ active }) {
                                                 ? skill.note
                                                 : ""}
                                             </div>
-                                            {skill.desc !== null ? (
+                                            {console.log(skill)}
+                                            {/* check if skill.desc is not null and is not "" */}
+                                            {skill.desc !== null &&
+                                            skill.desc !== "" ? (
                                               <button
                                                 className={
                                                   skillActive === currentActive

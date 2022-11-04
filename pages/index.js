@@ -18,9 +18,22 @@ export default function Home() {
     setSearchActive(!searchActive);
     document.body.style.overflow = searchActive ? "visible" : "hidden";
   }
+  // State that manages the copy state
+  const [copy, setCopy] = useState([{ value: "", copied: false }]);
 
+  // Function that opens the popup and copies the text
+  function copyOpen() {
+    setCopy({ copied: true });
+    copyClose();
+  }
+
+  // Function that closes the popup
+  function copyClose() {
+    setTimeout(() => setCopy({ copied: false }), 2000);
+  }
   return (
     <>
+      {copy.copied ? <div className="copied ">Copied</div> : ""}
       {isLoading ? (
         "loading"
       ) : (
@@ -51,7 +64,7 @@ export default function Home() {
             </div>
           )}
           <div className="home">
-            <Splash />
+            <Splash copyOpen={copyOpen} copyClose={copyClose} />
 
             <div className="main relative pt-20 b">
               {" "}
@@ -70,7 +83,7 @@ export default function Home() {
                 <div className="bg-black cont-padding">
                   <div id="contact"></div>
                   <Contact />
-                  <Footer />
+                  <Footer copyOpen={copyOpen} copyClose={copyClose} />
                 </div>
               </div>
             </div>
