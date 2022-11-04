@@ -62,7 +62,7 @@ function MyApp({ Component, pageProps }) {
           property="og:image"
           content="https://res.cloudinary.com/dmoxrn44i/image/upload/v1667245019/portfolio/512_bmmdy6.png"
         />
-        <meta property="og:url" content="https://anchooor.wtf" />
+        <meta property="og:url" content="https://www.anchor.graphics/" />
         {/* Twitter Post */}
         <meta
           name="twitter:card"
@@ -81,11 +81,6 @@ function MyApp({ Component, pageProps }) {
         />
         <meta name="robots" content="all" />
       </Head>
-      <Script
-        strategy="lazyOnload"
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-LC7LYGX91H"
-      ></Script>
       <Script
         id="google-analytics"
         strategy="lazyOnload"
