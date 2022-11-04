@@ -823,7 +823,7 @@ footer .transition-footer {
   top: -597px;
   width: 100%;
 }
-footer h2 {
+footer .tiitle {
   font-weight: bold;
   font-family: var(--ff--title);
   letter-spacing: 6px;
