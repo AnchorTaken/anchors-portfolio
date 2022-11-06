@@ -234,7 +234,6 @@ nav {
   color: var(--clr--accent);
   font-size: 1.5rem;
   letter-spacing: 10px;
-  height: 34px;
 }
 .splash-text h1 {
   font-size: 3rem;
@@ -312,7 +311,7 @@ nav {
   color: var(--clr--accent);
   position: relative;
   font-style: italic;
-  font-size: 10px;
+  margin-top: 10px;
   display: block;
 }
 

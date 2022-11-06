@@ -307,7 +307,7 @@ Search
   letter-spacing: 3px;
   padding-right: 10px;
   overflow-y: scroll;
-  height: 302px;
+  max-height: 302px;
 }
 /* width */
 .search-skills .texto-simple::-webkit-scrollbar {
