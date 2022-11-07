@@ -81,6 +81,11 @@ function MyApp({ Component, pageProps }) {
         />
         <meta name="robots" content="all" />
       </Head>
+ <Script
+        strategy="lazyOnload"
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-LC7LYGX91H"
+      ></Script>
       <Script
         id="google-analytics"
         strategy="lazyOnload"
