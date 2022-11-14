@@ -186,6 +186,7 @@ function Projects() {
                               src="https://res.cloudinary.com/dmoxrn44i/image/upload/v1668441422/portfolio/companies/itrsq_rduf6w.png"
                               width={25}
                               height={25}
+                              alt="ITRSQ"
                             />
                           </div>{" "}
                           <span>{tab.attributes.name}</span>{" "}

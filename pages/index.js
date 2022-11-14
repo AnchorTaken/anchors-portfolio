@@ -46,6 +46,7 @@ export default function Home() {
                   : "search-container "
               }
             >
+              {" "}
               <div className="inner-width z-50">
                 <SkillSearch active={searchActive} />
                 <div
