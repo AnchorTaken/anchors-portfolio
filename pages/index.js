@@ -47,12 +47,6 @@ export default function Home() {
               }
             >
               {" "}
-              <iframe
-                src="https://www.googletagmanager.com/ns.html?id=GTM-TFWSKL3"
-                height="0"
-                width="0"
-                style="display:none;visibility:hidden"
-              ></iframe>
               <div className="inner-width z-50">
                 <SkillSearch active={searchActive} />
                 <div
