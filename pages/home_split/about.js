@@ -61,7 +61,7 @@ function About({ searchBtn, setSea }) {
                   <div className="line"></div>
                 </div>
                 <p
-                  className="mb-5 pr-10 py-9 relative placeholder"
+                  className="mb-5  py-9 relative placeholder"
                   data-aos="fade-down"
                   data-aos-delay="350"
                 >
@@ -80,7 +80,7 @@ function About({ searchBtn, setSea }) {
                   ensure ease of use.
                 </p>
                 <p
-                  className="mb-5 pr-10 py-9 relative placeholder"
+                  className="mb-5  py-9 relative placeholder"
                   data-aos="fade-down"
                   data-aos-delay="450"
                 >
@@ -93,7 +93,7 @@ function About({ searchBtn, setSea }) {
                   up in exceptional front-end.
                 </p>{" "}
                 <p
-                  className="mb-5 pr-10 py-9 relative placeholder"
+                  className="mb-5  py-9 relative placeholder"
                   data-aos="fade-down"
                   data-aos-delay="450"
                 >
@@ -102,7 +102,7 @@ function About({ searchBtn, setSea }) {
                   me websites I build are closer to art than to software.
                 </p>{" "}
                 <p
-                  className="mb-5 pr-10 py-9 relative placeholder"
+                  className="mb-5  py-9 relative placeholder"
                   data-aos="fade-down"
                   data-aos-delay="450"
                 >
@@ -112,7 +112,7 @@ function About({ searchBtn, setSea }) {
                   <span>To steal their knowledge and help me grow</span>
                 </p>
                 <p
-                  className="mb-5 pr-10 py-9 relative placeholder"
+                  className="mb-5  py-9 relative placeholder"
                   data-aos="fade-down"
                   data-aos-delay="450"
                 >
@@ -163,7 +163,7 @@ function About({ searchBtn, setSea }) {
                       "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801677/portfolio/sq_k9sews.svg"
                     }
                     layout="fill"
-                    objectFit="cover"
+                    objectFit="contain"
                     alt="logo"
                     priority={true}
                   />
@@ -193,65 +193,49 @@ function About({ searchBtn, setSea }) {
                   data-aos="fade-down"
                   data-aos-delay="150"
                 >
-                  Hey I’m Evalds aka Anchor
+                  Hey, I’m Evalds aka Anchor.
                 </div>
 
                 <div className="line"></div>
               </div>
               <p
-                className="mb-5 pr-10 py-9 relative"
+                className="mb-5  py-9 relative"
                 data-aos="fade-down"
                 data-aos-delay="350"
               >
-                I am a web designer with 5 years of experience in building web
-                experiences. <br />
-                <br />
-                My main focus is on designing the most stunning experiences
-                without sacrificing UI and UX to ensure the best possible
-                outcome. Sometimes it might be mind blowing visuals and
-                sometimes it may be a simple clean minimalistic UI to ensure
-                ease of use
+                I am a web designer with 5 years of experience and my focus is
+                creating the most stunning experiences without sacrificing the
+                UI and UX, ensuring the best outcome. Sometimes that might be a
+                mind blowing visual and sometimes it may be a clean minimalistic
+                UI which does not compromise between aesthetics and ease of use.
+                Web development became my fascination in 2017. <br />
+                <br /> Since then, I grew into a person who does not ask whether
+                it is possible, only “how long will it take?”. My aspiration is
+                growing personally with every website by learning and improving
+                from my previous work, be it my code, the look of the site, or
+                its performance.
               </p>
               <p
-                className="mb-5 pr-10 py-9 relative"
+                className="mb-5  py-9 relative"
                 data-aos="fade-down"
                 data-aos-delay="450"
               >
-                I fell in love with web development in 2017 and ever since I was
-                able to grow into a person who has no idea of what’s possible
-                only the idea of how long it would take. I always aspire to grow
-                with every website I build. Learn and improve from my previous
-                work be it my code, look of the website or the performance of
-                the website. What I lack in back-end I make up in exceptional
-                front-end
+                Where there is design, there is opportunity for beauty, and I
+                strive to achieve it in every case. The sites can become
+                immortalisations of owners and in that regard are closer to art
+                than software.
               </p>{" "}
               <p
-                className="mb-5 pr-10 py-9 relative"
+                className="mb-5  py-9 relative"
                 data-aos="fade-down"
-                data-aos-delay="450"
+                data-aos-delay="550"
               >
-                I always had an insatiable love for pretty things and web design
-                is my way of expressing myself and my creativity. For me
-                websites I build are closer to art than to software
+                As a character, I am easy-going and find it simple to get along
+                with people. This is a by-product of my drive for continuous
+                learning and trying to work with people who can teach me as much
+                as I can teach them
+                <span> “Life is growth” – Phil Knight</span>
               </p>{" "}
-              <p
-                className="mb-5 pr-10 py-9 relative"
-                data-aos="fade-down"
-                data-aos-delay="450"
-              >
-                Overall, I am an easy-going person and I find it easy to get
-                along with people. I aspire to work with people that do things
-                better than me.{" "}
-                <span>To steal their knowledge and help me grow</span>
-              </p>
-              <p
-                className="mb-5 pr-10 py-9 relative"
-                data-aos="fade-down"
-                data-aos-delay="450"
-              >
-                I truly believe growing as a person is the most important thing
-                a human can do
-              </p>
               <div className="text-above"></div>
               <div className="tables">
                 <div className="title sm text-primary py-10">
@@ -288,20 +272,20 @@ function About({ searchBtn, setSea }) {
               {" "}
               <div className="right-side w-5/12 relative pl-32">
                 {" "}
-                <Parallax speed={-30}>
+                <Parallax speed={-24}>
                   <div className="sq" data-aos="fade-left" data-aos-delay="350">
                     <Image
                       src={
                         "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801677/portfolio/sq_k9sews.svg"
                       }
                       layout="fill"
-                      objectFit="cover"
+                      objectFit="contain"
                       alt="logo"
                       priority={true}
                     />
                   </div>
                 </Parallax>
-                <Parallax speed={-30} translateY={[0, 40]}>
+                <Parallax speed={-30} translateY={[0, 20]}>
                   <div
                     className="pop-in-hover"
                     data-aos="fade-in"
@@ -310,7 +294,7 @@ function About({ searchBtn, setSea }) {
                     <div className="anchor">
                       <Image
                         src={
-                          "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801677/portfolio/street_ezp7cc.jpg"
+                          "https://res.cloudinary.com/dmoxrn44i/image/upload/v1668440678/portfolio/street-main_cmyvaq.jpg"
                         }
                         layout="fill"
                         objectFit="cover"

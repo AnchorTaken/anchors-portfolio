@@ -84,9 +84,9 @@ function Projects() {
                         <i className="gg-shape-hexagon"></i>
                       </div>{" "}
                       <span>Vizintin Yachts</span>{" "}
-                      <div className="close-icon">
+                      {/* <div className="close-icon">
                         <i className="gg-close"></i>
-                      </div>
+                      </div> */}
                     </button>
                   </li>
                   <li
@@ -182,12 +182,16 @@ function Projects() {
                           }}
                         >
                           <div className="web-icon">
-                            <i className="gg-shape-hexagon"></i>
+                            <Image
+                              src="https://res.cloudinary.com/dmoxrn44i/image/upload/v1668441422/portfolio/companies/itrsq_rduf6w.png"
+                              width={25}
+                              height={25}
+                            />
                           </div>{" "}
                           <span>{tab.attributes.name}</span>{" "}
-                          <div className="close-icon">
+                          {/* <div className="close-icon">
                             <i className="gg-close"></i>
-                          </div>
+                          </div> */}
                         </button>
                       </li>
                     );
