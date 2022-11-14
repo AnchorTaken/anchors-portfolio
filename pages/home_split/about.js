@@ -61,7 +61,7 @@ function About({ searchBtn, setSea }) {
                   <div className="line"></div>
                 </div>
                 <p
-                  className="mb-5 pr-10 py-9 relative placeholder"
+                  className="mb-5  py-9 relative placeholder"
                   data-aos="fade-down"
                   data-aos-delay="350"
                 >
@@ -80,7 +80,7 @@ function About({ searchBtn, setSea }) {
                   ensure ease of use.
                 </p>
                 <p
-                  className="mb-5 pr-10 py-9 relative placeholder"
+                  className="mb-5  py-9 relative placeholder"
                   data-aos="fade-down"
                   data-aos-delay="450"
                 >
@@ -93,7 +93,7 @@ function About({ searchBtn, setSea }) {
                   up in exceptional front-end.
                 </p>{" "}
                 <p
-                  className="mb-5 pr-10 py-9 relative placeholder"
+                  className="mb-5  py-9 relative placeholder"
                   data-aos="fade-down"
                   data-aos-delay="450"
                 >
@@ -102,7 +102,7 @@ function About({ searchBtn, setSea }) {
                   me websites I build are closer to art than to software.
                 </p>{" "}
                 <p
-                  className="mb-5 pr-10 py-9 relative placeholder"
+                  className="mb-5  py-9 relative placeholder"
                   data-aos="fade-down"
                   data-aos-delay="450"
                 >
@@ -112,7 +112,7 @@ function About({ searchBtn, setSea }) {
                   <span>To steal their knowledge and help me grow</span>
                 </p>
                 <p
-                  className="mb-5 pr-10 py-9 relative placeholder"
+                  className="mb-5  py-9 relative placeholder"
                   data-aos="fade-down"
                   data-aos-delay="450"
                 >
@@ -163,7 +163,7 @@ function About({ searchBtn, setSea }) {
                       "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801677/portfolio/sq_k9sews.svg"
                     }
                     layout="fill"
-                    objectFit="cover"
+                    objectFit="contain"
                     alt="logo"
                     priority={true}
                   />
@@ -199,7 +199,7 @@ function About({ searchBtn, setSea }) {
                 <div className="line"></div>
               </div>
               <p
-                className="mb-5 pr-10 py-9 relative"
+                className="mb-5  py-9 relative"
                 data-aos="fade-down"
                 data-aos-delay="350"
               >
@@ -216,7 +216,7 @@ function About({ searchBtn, setSea }) {
                 its performance.
               </p>
               <p
-                className="mb-5 pr-10 py-9 relative"
+                className="mb-5  py-9 relative"
                 data-aos="fade-down"
                 data-aos-delay="450"
               >
@@ -226,7 +226,7 @@ function About({ searchBtn, setSea }) {
                 than software.
               </p>{" "}
               <p
-                className="mb-5 pr-10 py-9 relative"
+                className="mb-5  py-9 relative"
                 data-aos="fade-down"
                 data-aos-delay="550"
               >
@@ -272,20 +272,20 @@ function About({ searchBtn, setSea }) {
               {" "}
               <div className="right-side w-5/12 relative pl-32">
                 {" "}
-                <Parallax speed={-30}>
+                <Parallax speed={-24}>
                   <div className="sq" data-aos="fade-left" data-aos-delay="350">
                     <Image
                       src={
                         "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801677/portfolio/sq_k9sews.svg"
                       }
                       layout="fill"
-                      objectFit="cover"
+                      objectFit="contain"
                       alt="logo"
                       priority={true}
                     />
                   </div>
                 </Parallax>
-                <Parallax speed={-30} translateY={[0, 40]}>
+                <Parallax speed={-30} translateY={[0, 20]}>
                   <div
                     className="pop-in-hover"
                     data-aos="fade-in"
@@ -294,7 +294,7 @@ function About({ searchBtn, setSea }) {
                     <div className="anchor">
                       <Image
                         src={
-                          "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801677/portfolio/street_ezp7cc.jpg"
+                          "https://res.cloudinary.com/dmoxrn44i/image/upload/v1668440678/portfolio/street-main_cmyvaq.jpg"
                         }
                         layout="fill"
                         objectFit="cover"

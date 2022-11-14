@@ -148,6 +148,8 @@ Search
   z-index: 10;
   background: white;
   position: relative;
+  max-height: 53vh;
+  overflow-y: scroll;
 }
 .search-skills .category i {
   --ggs: 0.8;
@@ -310,21 +312,25 @@ Search
   max-height: 302px;
 }
 /* width */
-.search-skills .texto-simple::-webkit-scrollbar {
+.search-skills .texto-simple::-webkit-scrollbar,
+.search-skills .category::-webkit-scrollbar {
   width: 5px;
 }
 
 /* Track */
-.search-skills .texto-simple::-webkit-scrollbar-track {
+.search-skills .texto-simple::-webkit-scrollbar-track,
+.search-skills .category::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
 /* Handle */
-.search-skills .texto-simple::-webkit-scrollbar-thumb {
+.search-skills .texto-simple::-webkit-scrollbar-thumb,
+.search-skills .category::-webkit-scrollbar-thumb {
   background: #888;
 }
 
 /* Handle on hover */
-.search-skills .texto-simple::-webkit-scrollbar-thumb:hover {
+.search-skills .texto-simple::-webkit-scrollbar-thumb:hover,
+.search-skills .category::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
