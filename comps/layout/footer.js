@@ -17,7 +17,12 @@ function Footer({ copyOpen, copyClose }) {
         <div className="tiitle">find me</div>
         <div className="flex  mx-auto w-fit">
           {/* Link to github */}
-          <li data-aos="fade-up" data-aos-delay="500" data-aos-offset="000">
+          <li
+            id="discord"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-offset="000"
+          >
             <Copy
               copyOpen={copyOpen}
               copyClose={copyClose}
@@ -34,6 +39,7 @@ function Footer({ copyOpen, copyClose }) {
             href="https://github.com/AnchorTaken"
             target="_blank"
             rel="noreferrer"
+            id="github"
           >
             <li>
               {" "}
@@ -57,6 +63,7 @@ function Footer({ copyOpen, copyClose }) {
             href="https://www.linkedin.com/in/evalds-maksvitis-845247138/"
             target="_blank"
             rel="noreferrer"
+            id="linkedin"
           >
             <li>
               {" "}
@@ -77,6 +84,7 @@ function Footer({ copyOpen, copyClose }) {
             href="https://www.instagram.com/anchoronai/"
             target="_blank"
             rel="noreferrer"
+            id="instagram"
           >
             <li>
               {" "}
@@ -90,7 +98,12 @@ function Footer({ copyOpen, copyClose }) {
               />
             </li>
           </a>
-          <li data-aos="fade-up" data-aos-delay="900" data-aos-offset="000">
+          <li
+            data-aos="fade-up"
+            data-aos-delay="900"
+            data-aos-offset="000"
+            id="email"
+          >
             <Copy
               copyOpen={copyOpen}
               copyClose={copyClose}

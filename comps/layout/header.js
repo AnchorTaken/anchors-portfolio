@@ -62,7 +62,7 @@ export default function Header() {
                     data-aos-delay="550"
                   >
                     {" "}
-                    Resume{" "}
+                    Resumé{" "}
                     <div className="cont-for-ic">
                       <i className="gg-software-download"></i>
                     </div>
