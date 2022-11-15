@@ -9,7 +9,7 @@ function Splash({ copyOpen, copyClose }) {
       {" "}
       <div className="splash z-10">
         <div className="relative z-10 flex lines w-full h-full">
-          <div className="logo" data-aos="fade-up" data-aos-delay="250">
+          <div className="logo">
             <div className="bleh">
               <Image
                 src={"/assets/img/logo.svg"}
