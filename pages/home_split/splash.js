@@ -9,8 +9,11 @@ function Splash({ copyOpen, copyClose }) {
       {" "}
       <div className="splash z-10">
         <div className="relative z-10 flex lines w-full h-full">
-          <div className="logo">
-            <div className="bleh">
+          <div className="logo" id="logo">
+            <div
+              className="bleh"
+              // set transform to follow the mouse
+            >
               <Image
                 src={"/assets/img/logo.svg"}
                 layout="fill"
@@ -57,7 +60,8 @@ function Splash({ copyOpen, copyClose }) {
               data-aos="fade-down"
               data-aos-delay="250"
             >
-              Aspiring to be the person to design interactive experiences
+              Aspiring to design interactive experiences that engage and
+              captivate users
             </h1>
             <p
               className="font-default"
@@ -65,9 +69,9 @@ function Splash({ copyOpen, copyClose }) {
               data-aos-delay="450"
             >
               {" "}
-              I’m a designer specializing in building unique digital user
-              experiences. Currently, I’m focused on building easy to use
-              websites that have common sense at the center of user expreicence.
+              As a designer, I specialize in creating unique digital user
+              experiences. I am currently focused on building intuitive websites
+              that prioritize user experience and common sense.
             </p>
           </div>
         </div>

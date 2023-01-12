@@ -17,7 +17,11 @@ import "../public/assets/css/test.css";
 import Layout from "../comps/layout/layout.js";
 import Script from "next/script";
 
-function MyApp({ Component, pageProps }) {
+// React Query
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+const client = new QueryClient();
+
+function Anchor({ Component, pageProps }) {
   return (
     <>
       {" "}
@@ -30,7 +34,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="lang" content="en" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charSet="utf-8" />
-        <title>Anchor - Portfolio</title>
+        <title>Anchor</title>
         <meta name="author" content="Anchor" />
         {/* <link rel="manifest" href="/manifest.json" /> */}
         <meta name="theme-color" content="#000000" />
@@ -39,6 +43,16 @@ function MyApp({ Component, pageProps }) {
           rel="icon"
           href="https://res.cloudinary.com/dmoxrn44i/image/upload/v1667405458/portfolio/logo_p3tcoq.png"
         />{" "}
+        <link
+          href="https://res.cloudinary.com/dmoxrn44i/image/upload/v1668687378/portfolio/logo-white_zaydhs.png"
+          rel="icon"
+          media="(prefers-color-scheme: dark)"
+        />
+        <link
+          href="https://res.cloudinary.com/dmoxrn44i/image/upload/v1668687378/portfolio/logo-black_paiffc.png"
+          rel="icon"
+          media="(prefers-color-scheme: light)"
+        />
         <link
           rel="mask-icon"
           href="https://res.cloudinary.com/dmoxrn44i/image/upload/v1667405458/portfolio/logo_p3tcoq.png"
@@ -49,7 +63,7 @@ function MyApp({ Component, pageProps }) {
           href="https://res.cloudinary.com/dmoxrn44i/image/upload/v1667405458/portfolio/logo_p3tcoq.png"
         />
         {/* Embeds */}
-        <meta property="og:title" content="Anchor - Portfolio" />
+        <meta property="og:title" content="Anchor" />
         <meta
           name="description"
           content="Anchor’s Portfolio. I am an aspiring front end designer. I admire beautiful things and aspire to build websites and experiences to wow people without sacrificing user experience."
@@ -95,18 +109,20 @@ function MyApp({ Component, pageProps }) {
         gtag('js', new Date());
         gtag('config', 'G-LC7LYGX91H');
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TFWSKL3');
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TFWSKL3');
         `,
         }}
       ></Script>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <QueryClientProvider client={client}>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </QueryClientProvider>
     </>
   );
 }
 
-export default MyApp;
+export default Anchor;

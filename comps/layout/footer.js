@@ -28,7 +28,7 @@ function Footer({ copyOpen, copyClose }) {
               copyClose={copyClose}
               copyValue={"Anchor#7851"}
               imgPresent={
-                "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801166/portfolio/socials/discord_qiagch.png"
+                "https://res.cloudinary.com/dmoxrn44i/image/upload/v1668688801/portfolio/socials/discord_p1xylh.png"
               }
             />{" "}
           </li>
@@ -45,7 +45,7 @@ function Footer({ copyOpen, copyClose }) {
               {" "}
               <Image
                 src={
-                  "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801166/portfolio/socials/github_s6l3k7.png"
+                  "https://res.cloudinary.com/dmoxrn44i/image/upload/v1668688549/portfolio/socials/github_w4c1tf.png"
                 }
                 layout="fill"
                 objectFit="contain"
@@ -69,7 +69,7 @@ function Footer({ copyOpen, copyClose }) {
               {" "}
               <Image
                 src={
-                  "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801166/portfolio/socials/linkedin_udi2xy.png"
+                  "https://res.cloudinary.com/dmoxrn44i/image/upload/v1668688549/portfolio/socials/linkedin_akiwsq.png"
                 }
                 layout="fill"
                 objectFit="contain"
@@ -90,7 +90,7 @@ function Footer({ copyOpen, copyClose }) {
               {" "}
               <Image
                 src={
-                  "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666802622/portfolio/socials/ig_lxyuv2.png"
+                  "https://res.cloudinary.com/dmoxrn44i/image/upload/v1668688549/portfolio/socials/ig_v8eeqc.png"
                 }
                 layout="fill"
                 objectFit="contain"
@@ -109,7 +109,7 @@ function Footer({ copyOpen, copyClose }) {
               copyClose={copyClose}
               copyValue={"maksvitisevalds@gmail.com"}
               imgPresent={
-                "https://res.cloudinary.com/dmoxrn44i/image/upload/v1666801166/portfolio/socials/email_tldxje.png"
+                "https://res.cloudinary.com/dmoxrn44i/image/upload/v1668688549/portfolio/socials/email_npx3tp.png"
               }
             />{" "}
           </li>
