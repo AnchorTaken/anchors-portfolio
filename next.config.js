@@ -17,5 +17,9 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
 });
 
-module.exports = nextConfig;
-//  && withBundleAnalyzer({})
+// if analyze is true, then we will use the bundle analyzer && withBundleAnalyzer({})
+if (process.env.ANALYZE === "true") {
+  module.exports = withBundleAnalyzer(nextConfig);
+} else {
+  module.exports = nextConfig;
+}
